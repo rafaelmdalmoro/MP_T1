@@ -31,11 +31,16 @@ Teste Passou!
 porque: foi implementada a vitoria do O
 Obs: Todos os testes de Xvenceu comentados
 
-Teste 5 - O vence todos
+Teste 6 - O vence todos
 testa todos os casos em que o O vence, retornando sempre 2
 Teste Passou!
 porque: implementadas matrizes vitoriaO_<n>[3][3]
 Obs: Todos os testes de Xvenceu comentados
+
+Teste 7 - X vence todos e O vence todos
+testa todos os casos em que o O vence, retornando 2, e todos os casos em que X vence, retornando 1
+Teste Passou!
+Obs: Todos os testes de Xvenceu "descomentados"
 
 
 
