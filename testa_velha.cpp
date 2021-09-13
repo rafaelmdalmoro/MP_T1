@@ -42,14 +42,19 @@ TEST_CASE("Testa velha", "[single-file]") {
     };
 	int vitoriaX_8[3][3]= {   { 0, 2, 0 },
 	                          { 2, 0, 2 },
-						      { 1, 1, 1 }
+					          { 1, 1, 1 }
     };
-    REQUIRE(VerificaVelha(vitoriaX_1) == 1);
-	REQUIRE(VerificaVelha(vitoriaX_2) == 1);
-	REQUIRE(VerificaVelha(vitoriaX_3) == 1);
-	REQUIRE(VerificaVelha(vitoriaX_4) == 1);
-	REQUIRE(VerificaVelha(vitoriaX_5) == 1);
-	REQUIRE(VerificaVelha(vitoriaX_6) == 1);
-	REQUIRE(VerificaVelha(vitoriaX_7) == 1);
-	REQUIRE(VerificaVelha(vitoriaX_8) == 1);
+	int vitoriaO_1[3][3]= {   { 1, 0, 2 },
+	                          { 1, 0, 2 },
+						      { 0, 1, 2 }
+    };
+    /* REQUIRE(VerificaVelha(vitoriaX_1) == 1);
+    REQUIRE(VerificaVelha(vitoriaX_2) == 1);
+    REQUIRE(VerificaVelha(vitoriaX_3) == 1);
+    REQUIRE(VerificaVelha(vitoriaX_4) == 1);
+    REQUIRE(VerificaVelha(vitoriaX_5) == 1);
+    REQUIRE(VerificaVelha(vitoriaX_6) == 1);
+    REQUIRE(VerificaVelha(vitoriaX_7) == 1);
+    REQUIRE(VerificaVelha(vitoriaX_8) == 1); */
+	REQUIRE(VerificaVelha(vitoriaO_1) == 1);
 }
