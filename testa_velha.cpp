@@ -12,6 +12,7 @@
 #include "catch.hpp"
 
 TEST_CASE("Testa velha", "[single-file]") {
+	// X vence
     int vitoriaX_1[3][3]= {   { 2, 0, 1 },
 	                          { 2, 0, 1 },
 						      { 0, 2, 1 }
@@ -44,6 +45,7 @@ TEST_CASE("Testa velha", "[single-file]") {
 	                          { 2, 0, 2 },
 					          { 1, 1, 1 }
     };
+	// O vence
 	int vitoriaO_1[3][3]= {   { 1, 0, 2 },
 	                          { 1, 0, 2 },
 						      { 0, 1, 2 }
@@ -76,6 +78,13 @@ TEST_CASE("Testa velha", "[single-file]") {
 	                          { 1, 0, 1 },
 						      { 2, 2, 2 }
     };
+	//Invalidos
+	int tudoX[3][3]= {        { 1, 1, 1 },
+	                          { 1, 1, 1 },
+						      { 1, 1, 2 }
+    };
+	//Testes
+	// X vence
     REQUIRE(VerificaVelha(vitoriaX_1) == 1);
     REQUIRE(VerificaVelha(vitoriaX_2) == 1);
     REQUIRE(VerificaVelha(vitoriaX_3) == 1);
@@ -83,7 +92,8 @@ TEST_CASE("Testa velha", "[single-file]") {
     REQUIRE(VerificaVelha(vitoriaX_5) == 1);
     REQUIRE(VerificaVelha(vitoriaX_6) == 1);
     REQUIRE(VerificaVelha(vitoriaX_7) == 1);
-    REQUIRE(VerificaVelha(vitoriaX_8) == 1); 
+    REQUIRE(VerificaVelha(vitoriaX_8) == 1);
+	// O vence
 	REQUIRE(VerificaVelha(vitoriaO_1) == 2);
 	REQUIRE(VerificaVelha(vitoriaO_2) == 2);
     REQUIRE(VerificaVelha(vitoriaO_3) == 2);
@@ -92,4 +102,7 @@ TEST_CASE("Testa velha", "[single-file]") {
     REQUIRE(VerificaVelha(vitoriaO_6) == 2);
     REQUIRE(VerificaVelha(vitoriaO_7) == 2);
     REQUIRE(VerificaVelha(vitoriaO_8) == 2);
+	// Jogos invalidos
+	REQUIRE(VerificaVelha(tudoX) == -2);
+
 }
