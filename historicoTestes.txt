@@ -1,0 +1,20 @@
+/*
+* Teste de Arquivos
+* Autor Rafael Mascarenhas
+*
+*/
+
+Teste 1 - Código inicial
+testa a matriz implementada pelo professor
+FALHOU
+obs: nada foi implementado
+
+Teste 2 - X vence
+testa se x vence na matriz 1,
+Teste Passou!
+Obs: implementadas funcoes vencedorX, linha<n>Venceu, coluna<n>Venceu e diagonal<n>Venceu
+
+Teste 3 - X vence todas
+testa todos os casos em que o X vence, retornando sempre 1
+Teste Passou!
+Obs: implementadas matrizes vitoriaX_<n>[3][3]
