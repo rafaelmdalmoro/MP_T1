@@ -30,3 +30,12 @@ testa caso em que o O vence, retornando sempre 2
 Teste Passou!
 porque: foi implementada a vitoria do O
 Obs: Todos os testes de Xvenceu comentados
+
+Teste 5 - O vence todos
+testa todos os casos em que o O vence, retornando sempre 2
+Teste Passou!
+porque: implementadas matrizes vitoriaO_<n>[3][3]
+Obs: Todos os testes de Xvenceu comentados
+
+
+
