@@ -56,5 +56,5 @@ TEST_CASE("Testa velha", "[single-file]") {
     REQUIRE(VerificaVelha(vitoriaX_6) == 1);
     REQUIRE(VerificaVelha(vitoriaX_7) == 1);
     REQUIRE(VerificaVelha(vitoriaX_8) == 1); */
-	REQUIRE(VerificaVelha(vitoriaO_1) == 1);
+	REQUIRE(VerificaVelha(vitoriaO_1) == 2);
 }

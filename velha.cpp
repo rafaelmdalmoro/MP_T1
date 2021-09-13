@@ -21,6 +21,8 @@
 int VerificaVelha(int velha[3][3]) {
     if(vencedorX(velha)){
         return 1;
+    } else if(vencedorO(velha)){
+        return 2;
     }
     return 0; /*!< retorna zero para teste */
 }
@@ -28,23 +30,46 @@ int VerificaVelha(int velha[3][3]) {
 int vencedorX(int velha[3][3]){
     int x = 1;
     if(linha1Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else if(linha2Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else if(linha3Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else if(coluna1Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else if(coluna2Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else if(coluna3Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else if(diagonal1Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else if(diagonal2Venceu(x,velha)){
-        return 1;
+        return TRUE;
     }else {
-        return 0;
+        return FALSE;
+    }
+}
+
+int vencedorO(int velha[3][3]){
+    int O = 2;
+    if(linha1Venceu(O,velha)){
+        return TRUE;
+    }else if(linha2Venceu(O,velha)){
+        return TRUE;
+    }else if(linha3Venceu(O,velha)){
+        return TRUE;
+    }else if(coluna1Venceu(O,velha)){
+        return TRUE;
+    }else if(coluna2Venceu(O,velha)){
+        return TRUE;
+    }else if(coluna3Venceu(O,velha)){
+        return TRUE;
+    }else if(diagonal1Venceu(O,velha)){
+        return TRUE;
+    }else if(diagonal2Venceu(O,velha)){
+        return TRUE;
+    }else {
+        return FALSE;
     }
 }
 

@@ -18,3 +18,15 @@ Teste 3 - X vence todas
 testa todos os casos em que o X vence, retornando sempre 1
 Teste Passou!
 Obs: implementadas matrizes vitoriaX_<n>[3][3]
+
+Teste 4 - O vence
+testa caso em que o O vence, retornando sempre 2
+Teste Falhou!
+porque: ainda não foi implementada a vitoria do O
+Obs: Todos os testes de Xvenceu comentados
+
+Teste 5 - O vence
+testa caso em que o O vence, retornando sempre 2
+Teste Passou!
+porque: foi implementada a vitoria do O
+Obs: Todos os testes de Xvenceu comentados
