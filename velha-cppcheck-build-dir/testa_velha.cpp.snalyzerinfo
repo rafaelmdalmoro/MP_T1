@@ -1,0 +1,1267 @@
+NonCopyable
+makeSafe
+trueValue
+deleteAll call:[begin,end]
+deleteAllValues call:[begin,end]
+isTrue
+alwaysTrue
+alwaysFalse
+operator+ call:[string] noreturn:[string]
+operator+
+NotImplementedException
+MethodTestCase
+invoke
+MethodTestCase
+NameAndDesc
+AutoReg call:[registerTestCase] noreturn:[registerTestCase]
+isOk call:[return]
+isJustInfo
+operator|
+shouldContinueOnFailure call:[return]
+isFalseTest call:[return]
+shouldSuppressFailure call:[return]
+DecomposedExpression
+isBinaryExpression
+AssertionResultData
+negate
+reconstructExpression call:[append,insert,reconstructExpression] noreturn:[append,insert]
+toString call:[describe,empty] noreturn:[describe]
+Not
+AllOf
+AllOf
+AnyOf
+AnyOf
+CopyableStream
+CopyableStream call:[str] noreturn:[str]
+operator= call:[str,string]
+operator<< call:[stream]
+stream call:[m_stream,str] noreturn:[m_stream,str]
+m_stream
+getName
+getName
+getName
+getName
+getName
+getName
+getName
+opCast
+opCast
+evaluate call:[bool,opCast] noreturn:[bool]
+evaluate call:[bool,opCast] noreturn:[bool]
+evaluate call:[bool,opCast] noreturn:[bool]
+evaluate call:[bool,opCast] noreturn:[bool]
+evaluate call:[bool,opCast] noreturn:[bool]
+evaluate call:[bool,opCast] noreturn:[bool]
+applyEvaluator call:[evaluate] noreturn:[evaluate]
+compare call:[evaluate] noreturn:[evaluate]
+compare
+compare
+compare
+compare
+compare
+compare
+compare
+compare
+compare
+compare
+compare
+compare
+compare call:[evaluate] noreturn:[evaluate]
+compare call:[evaluate] noreturn:[evaluate]
+compare call:[evaluate] noreturn:[evaluate]
+compare call:[evaluate] noreturn:[evaluate]
+compare
+compare
+compare
+compare
+compare
+compare
+compare
+compare call:[evaluate] noreturn:[evaluate]
+compare call:[evaluate] noreturn:[evaluate]
+compare call:[evaluate] noreturn:[evaluate]
+compare call:[evaluate] noreturn:[evaluate]
+convert
+convert call:[toString] noreturn:[toString]
+convert call:[convert] noreturn:[convert]
+convert call:[str] noreturn:[str]
+rawMemoryToString call:[rawMemoryToString,sizeof] noreturn:[rawMemoryToString]
+convert call:[rawMemoryToString] noreturn:[rawMemoryToString]
+convert call:[rawMemoryToString] noreturn:[rawMemoryToString]
+toString call:[begin,end,rangeToString] noreturn:[rangeToString]
+print call:[print,toString] noreturn:[print]
+print
+convert call:[print,str] noreturn:[str]
+makeString call:[convert] noreturn:[convert]
+toString call:[convert] noreturn:[convert]
+rangeToString call:[str,toString] noreturn:[str,toString]
+MatchExpression
+isBinaryExpression
+reconstructExpression call:[toString]
+operator<=
+operator<= call:[ExpressionLhs < bool >] noreturn:[ExpressionLhs < bool >]
+captureMatch call:[endExpression,expr,match,setResultType] noreturn:[endExpression]
+operator==
+operator<
+MessageBuilder
+operator<<
+Counts
+operator-
+operator+=
+total
+allPassed
+allOk
+operator-
+delta
+operator+=
+SectionEndInfo
+Timer
+IGenerator
+BetweenGenerator
+getValue
+size
+ValuesGenerator
+add call:[push_back] noreturn:[push_back]
+getValue
+size call:[size] noreturn:[size]
+CompositeGenerator
+CompositeGenerator call:[move] noreturn:[move]
+setFileInfo
+CompositeGenerator call:[deleteAll] noreturn:[deleteAll]
+operatorT call:[SourceLineInfo,T,begin,end,getCurrentContext,getGeneratorIndex,getValue,size,throwLogicError] noreturn:[T,getValue,size]
+add call:[push_back,size] noreturn:[push_back]
+then call:[move]
+then call:[add]
+move call:[begin,clear,end,insert] noreturn:[clear]
+between call:[add]
+values call:[add]
+values call:[add]
+values call:[add]
+ExceptionTranslator
+translate call:[m_translateFunction,return,translate] noreturn:[m_translateFunction,translate]
+ExceptionTranslatorRegistrar call:[getMutableRegistryHub,registerTranslator] noreturn:[registerTranslator]
+Approx
+custom call:[Approx] noreturn:[Approx]
+operator() call:[epsilon,margin,operator(),scale]
+Approx
+operator== call:[double,fabs]
+operator== call:[operator==] noreturn:[operator==]
+operator!= call:[operator==] noreturn:[operator==]
+operator!= call:[operator==] noreturn:[operator==]
+operator<= call:[double]
+operator<= call:[double]
+operator>= call:[double]
+operator>= call:[double]
+epsilon call:[double]
+margin call:[double]
+scale call:[double]
+toString call:[str,toString] noreturn:[str]
+toString < Detail :: Approx > call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+ContainsElementMatcher
+match call:[begin,end,find] noreturn:[end]
+describe call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+ContainsMatcher
+match call:[begin,end,find,size]
+describe call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+EqualsMatcher
+match call:[size]
+describe call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+Contains
+VectorContains
+Equals
+TagAlias
+WildcardPattern call:[endsWith,size,startsWith,substr]
+matches call:[adjustCase,contains,endsWith,logic_error,startsWith] noreturn:[contains,logic_error]
+adjustCase call:[toLower]
+NamePattern
+matches call:[matches,toLower] noreturn:[matches]
+TagPattern
+matches call:[end,find] noreturn:[end]
+ExcludedPattern
+matches call:[matches] noreturn:[matches]
+matches call:[begin,end,matches]
+hasFilters call:[empty] noreturn:[empty]
+matches call:[begin,end,matches]
+TestSpecParser
+parse call:[addPattern < TestSpec :: NamePattern >,clear,expandAliases,size,visitChar] noreturn:[addPattern < TestSpec :: NamePattern >,visitChar]
+testSpec call:[addFilter]
+visitChar call:[addFilter,addPattern < TestSpec :: NamePattern >,addPattern < TestSpec :: TagPattern >,escape,startNewMode,subString] noreturn:[addFilter,addPattern < TestSpec :: NamePattern >,addPattern < TestSpec :: TagPattern >,escape,startNewMode]
+startNewMode
+escape call:[push_back] noreturn:[push_back]
+subString call:[substr] noreturn:[substr]
+addFilter call:[Filter,empty,push_back] noreturn:[Filter]
+parseTestSpec call:[TestSpecParser,get,parse,testSpec] noreturn:[testSpec]
+ConfigData
+Config
+Config call:[empty,get,parse,parser,size,testSpec] noreturn:[parse,testSpec]
+Config
+getFilename
+listTests
+listTestNamesOnly
+listTags
+listReporters
+listExtraInfo
+getProcessName
+getReporterNames
+getSectionsToRun
+testSpec
+showHelp
+allowThrows
+stream call:[stream] noreturn:[stream]
+name call:[empty]
+includeSuccessfulResults
+warnAboutMissingAssertions
+showDurations
+runOrder
+rngSeed
+useColour
+shouldDebugBreak
+abortAfter
+showInvisibles
+openStream call:[CoutStream,DebugOutStream,FileStream,domain_error,empty] noreturn:[CoutStream,DebugOutStream,FileStream,domain_error]
+TextAttributes
+setInitialIndent
+setIndent
+setWidth
+setTabChar
+Text call:[back,empty,find_first_of,find_last_of,push_back,size,spliceLine,substr] noreturn:[spliceLine,substr]
+spliceLine call:[push_back,string,substr] noreturn:[substr]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+last call:[back] noreturn:[back]
+size call:[size] noreturn:[size]
+operator[]
+toString < Detail :: Approx > call:[str] noreturn:[str]
+operator<< call:[begin,end]
+startsWith call:[size,substr]
+convertInto call:[fail,runtime_error] noreturn:[runtime_error]
+convertInto
+toLowerCh call:[tolower]
+convertInto call:[begin,end,runtime_error,transform] noreturn:[runtime_error]
+BoundDataMember
+set call:[convertInto] noreturn:[convertInto]
+takesArg
+clone call:[BoundDataMember] noreturn:[BoundDataMember]
+BoundUnaryMethod
+set call:[convertInto]
+takesArg
+clone call:[BoundUnaryMethod] noreturn:[BoundUnaryMethod]
+BoundNullaryMethod
+set call:[convertInto]
+takesArg
+clone call:[BoundNullaryMethod] noreturn:[BoundNullaryMethod]
+BoundUnaryFunction
+set call:[convertInto,function] noreturn:[function]
+takesArg
+clone call:[BoundUnaryFunction] noreturn:[BoundUnaryFunction]
+BoundBinaryFunction
+set call:[convertInto,function] noreturn:[function]
+takesArg
+clone call:[BoundBinaryFunction] noreturn:[BoundBinaryFunction]
+argsToVector call:[args]
+Token
+Parser
+parseIntoTokens call:[parseIntoTokens,size] noreturn:[parseIntoTokens]
+parseIntoTokens call:[handleMode,size] noreturn:[handleMode]
+handleMode call:[handleMaybeShortOpt,handleNone,handleOpt,handlePositional,logic_error] noreturn:[logic_error]
+handleNone
+handleMaybeShortOpt
+handleOpt call:[Token,find,push_back,size,string,substr] noreturn:[push_back]
+handlePositional call:[Token,find,push_back,string,substr]
+hasShortName call:[begin,end,find] noreturn:[end]
+hasLongName
+PositionalArgProperties
+isFixedPositional
+abortAfterFirst
+abortAfterX call:[runtime_error] noreturn:[runtime_error]
+addTestOrTags call:[push_back] noreturn:[push_back]
+addSectionToRun call:[push_back] noreturn:[push_back]
+addReporterName call:[push_back] noreturn:[push_back]
+addWarning call:[runtime_error] noreturn:[runtime_error]
+setOrder call:[runtime_error,startsWith] noreturn:[runtime_error]
+setRngSeed call:[fail,runtime_error,time] noreturn:[runtime_error]
+setVerbosity
+setShowDurations
+setUseColour call:[runtime_error,toLower] noreturn:[runtime_error]
+setWaitForKeypress call:[runtime_error,toLower] noreturn:[runtime_error]
+forceColour
+loadTestNamesFromFile call:[addTestOrTags,c_str,domain_error,empty,f,getline,is_open,startsWith,trim] noreturn:[addTestOrTags,domain_error]
+makeCommandLineParser call:[bind,bindProcessName,describe]
+TextAttributes
+setInitialIndent
+setIndent
+setWidth
+Text call:[begin,end,find,push_back,size,string,while] noreturn:[string]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+last call:[back] noreturn:[back]
+size call:[size] noreturn:[size]
+operator[]
+toString < Detail :: Approx > call:[str] noreturn:[str]
+operator<< call:[begin,end]
+operator<<
+ReporterConfig
+ReporterConfig
+stream
+fullConfig
+ReporterPreferences
+TestRunInfo
+GroupInfo
+AssertionStats call:[builder,getMessage,getResultType,getSourceInfo,getTestMacroName,hasMessage,push_back,str] noreturn:[push_back]
+SectionStats
+TestCaseStats
+TestGroupStats
+TestGroupStats
+TestRunStats
+tryAsMulti
+listTests call:[TestSpecParser,Text,begin,colourGuard,cout,empty,end,filterTests,get,getAllTestCasesSorted,getTestCaseInfo,hasFilters,isHidden,listExtraInfo,parse,pluralise,setIndent,setInitialIndent,testSpec] noreturn:[testSpec]
+listTestsNamesOnly call:[TestSpecParser,begin,cout,end,filterTests,get,getAllTestCasesSorted,getTestCaseInfo,hasFilters,listExtraInfo,parse,startsWith,testSpec] noreturn:[testSpec]
+TagInfo
+add call:[insert] noreturn:[insert]
+all call:[begin,end]
+listTags call:[TagInfo,TestSpecParser,TextAttributes,add,all,begin,cout,end,filterTests,find,get,getAllTestCasesSorted,getTestCaseInfo,hasFilters,insert,make_pair,parse,pluralise,setIndent,setInitialIndent,setWidth,setw,size,str,testSpec,toLower,wrapper] noreturn:[add,size,testSpec]
+listReporters call:[TextAttributes,begin,cout,end,getDescription,getFactories,getRegistryHub,getReporterRegistry,setIndent,setInitialIndent,setWidth,size,string,wrapper] noreturn:[size]
+list call:[listExtraInfo,listReporters,listTags,listTestNamesOnly,listTests,listTestsNamesOnly,valueOr] noreturn:[listReporters,listTags,listTests,listTestsNamesOnly]
+NameAndLocation
+instance
+TrackerContext
+endRun call:[reset]
+startCycle call:[get]
+completeCycle
+completedCycle
+currentTracker
+setCurrentTracker
+TrackerHasName
+operator() call:[nameAndLocation]
+TrackerBase
+nameAndLocation
+isComplete
+isSuccessfullyCompleted
+isOpen call:[isComplete] noreturn:[isComplete]
+hasChildren call:[empty] noreturn:[empty]
+addChild call:[push_back] noreturn:[push_back]
+findChild call:[TrackerHasName,begin,end,find_if,get,return]
+parent call:[assert]
+openChild call:[openChild] noreturn:[openChild]
+isSectionTracker
+isIndexTracker
+open call:[moveToThis,openChild] noreturn:[openChild]
+close call:[back,close,completeCycle,currentTracker,empty,isComplete,logic_error,moveToParent] noreturn:[close,completeCycle,logic_error]
+fail call:[completeCycle,markAsNeedingAnotherRun,moveToParent] noreturn:[completeCycle,markAsNeedingAnotherRun]
+markAsNeedingAnotherRun
+moveToParent call:[assert,setCurrentTracker] noreturn:[setCurrentTracker]
+moveToThis call:[setCurrentTracker] noreturn:[setCurrentTracker]
+SectionTracker call:[addNextFilters,isSectionTracker,parent] noreturn:[addNextFilters,parent]
+isSectionTracker
+acquire call:[SectionTracker,addChild,assert,completedCycle,currentTracker,findChild,isSectionTracker,tryOpen] noreturn:[addChild,tryOpen]
+tryOpen call:[empty,isComplete,open] noreturn:[open]
+addInitialFilters call:[begin,empty,end,insert,push_back] noreturn:[insert]
+addNextFilters call:[begin,end,insert,size] noreturn:[insert]
+IndexTracker
+isIndexTracker
+acquire call:[IndexTracker,addChild,assert,completedCycle,currentTracker,findChild,isComplete,isIndexTracker,moveNext,open] noreturn:[addChild,moveNext,open]
+index
+moveNext call:[clear] noreturn:[clear]
+close call:[close]
+startRun call:[NameAndLocation,SectionTracker,SourceLineInfo]
+reportFatal call:[getCurrentContext,getResultCapture,handleFatalErrorCondition] noreturn:[handleFatalErrorCondition]
+handleSignal call:[raise,reportFatal,reset,sizeof] noreturn:[raise]
+FatalConditionHandler call:[sigaction,sigaltstack,sizeof] noreturn:[sigaction]
+FatalConditionHandler call:[reset] noreturn:[reset]
+reset call:[sigaction,sigaltstack,sizeof] noreturn:[sigaction]
+StreamRedirect call:[rdbuf] noreturn:[rdbuf]
+StreamRedirect call:[rdbuf,str] noreturn:[rdbuf]
+StdErrRedirect call:[cerr,clog,rdbuf] noreturn:[rdbuf]
+StdErrRedirect call:[cerr,clog,rdbuf,str] noreturn:[rdbuf]
+RunContext call:[setConfig,setResultCapture,setRunner,testRunStarting] noreturn:[testRunStarting]
+RunContext call:[TestRunStats,aborting,testRunEnded] noreturn:[testRunEnded]
+testGroupStarting call:[GroupInfo,testGroupStarting] noreturn:[testGroupStarting]
+testGroupEnded call:[GroupInfo,TestGroupStats,aborting,testGroupEnded] noreturn:[testGroupEnded]
+runTest call:[NameAndLocation,TestCaseStats,aborting,acquire,addInitialFilters,advanceGeneratorsForCurrentTest,assert,delta,expectedToFail,getCurrentContext,getSectionsToRun,getTestCaseInfo,isSectionTracker,isSuccessfullyCompleted,runCurrentTest,startCycle,startRun,testCaseEnded,testCaseStarting,while] noreturn:[runCurrentTest,while]
+config
+assertionEnded call:[AssertionInfo,AssertionStats,assertionEnded,getResultType,getTestCaseInfo,isOk,okToFail]
+lastAssertionPassed
+assertionPassed
+assertionRun
+sectionStarted call:[NameAndLocation,acquire,isOpen,push_back,sectionStarting]
+testForMissingAssertions call:[currentTracker,hasChildren,total,warnAboutMissingAssertions]
+sectionEnded call:[SectionStats,back,clear,close,empty,pop_back,sectionEnded,testForMissingAssertions] noreturn:[clear,pop_back]
+sectionEndedEarly call:[back,close,empty,fail,pop_back,push_back] noreturn:[close,fail,push_back]
+pushScopedMessage call:[push_back] noreturn:[push_back]
+popScopedMessage call:[begin,end,erase,remove] noreturn:[erase]
+getCurrentTestName call:[getTestCaseInfo,string] noreturn:[string]
+getLastResult
+exceptionEarlyReported
+handleFatalErrorCondition call:[TestCaseStats,TestRunStats,assertionEnded,getResultCapture,getTestCaseInfo,handleUnfinishedSections,result,sectionEnded,string,testCaseEnded,testCaseSection,testCaseSectionStats,testGroupEnded,testRunEnded] noreturn:[testRunEnded]
+aborting call:[abortAfter]
+runCurrentTest call:[AssertionInfo,clear,close,cout,coutRedir,errRedir,getElapsedSeconds,getPreferences,getTestCaseInfo,handleUnfinishedSections,invokeActiveTestCase,makeUnexpectedResultBuilder,sectionEnded,sectionStarting,seedRng,start,testCaseSection,testCaseSectionStats,testForMissingAssertions,useActiveException] noreturn:[getElapsedSeconds,invokeActiveTestCase,sectionEnded,useActiveException]
+invokeActiveTestCase call:[invoke,reset] noreturn:[reset]
+makeUnexpectedResultBuilder call:[ResultBuilder] noreturn:[ResultBuilder]
+handleUnfinishedSections call:[clear,rbegin,rend,sectionEnded] noreturn:[clear,sectionEnded]
+getResultCapture call:[getCurrentContext,getResultCapture,logic_error] noreturn:[logic_error]
+createReporter call:[create,domain_error,get,getRegistryHub,getReporterRegistry,str] noreturn:[domain_error]
+makeReporter call:[addReporter,begin,createReporter,empty,end,getReporterNames,push_back] noreturn:[addReporter,push_back]
+addListeners call:[ReporterConfig,addReporter,begin,create,end,getListeners,getRegistryHub,getReporterRegistry] noreturn:[addReporter]
+runTests call:[TestSpecParser,aborting,addListeners,begin,context,end,get,getAllTestCasesSorted,hasFilters,makeReporter,matchTest,name,parse,runTest,skipTest,testGroupEnded,testGroupStarting,testSpec] noreturn:[runTest,skipTest,testSpec]
+applyFilenamesAsTags call:[find_last_of,getAllTestCasesSorted,insert,setTags,size,substr] noreturn:[setTags,substr]
+Session call:[cerr,logic_error] noreturn:[logic_error]
+Session call:[cleanUp] noreturn:[cleanUp]
+showHelp call:[cout,libraryVersion,usage]
+libIdentify call:[cout,libraryVersion,setw]
+applyCommandLine call:[Text,TextAttributes,argsToVector,cerr,colourGuard,cout,libIdentify,parseInto,reset,return,setIndent,setThrowOnUnrecognisedTokens,showHelp,usage,what] noreturn:[libIdentify,reset,showHelp]
+useConfigData call:[reset] noreturn:[reset]
+run call:[applyCommandLine,run] noreturn:[run]
+run call:[cout,getchar,runInternal]
+cli
+unusedTokens
+configData
+config call:[Config] noreturn:[Config]
+runInternal call:[applyFilenamesAsTags,cerr,config,list,return,runTests,seedRng,what] noreturn:[applyFilenamesAsTags]
+operator() call:[rand]
+operator() call:[rand]
+shuffle call:[begin,end,shuffle] noreturn:[shuffle]
+sortTests call:[begin,end,runOrder,seedRng,shuffle,sort] noreturn:[shuffle]
+matchTest call:[allowThrows,matches,throws]
+enforceNoDuplicateTestCases call:[Colour,begin,end,getTestCaseInfo,insert,runtime_error,str] noreturn:[runtime_error]
+filterTests call:[begin,end,matchTest,push_back,reserve,size] noreturn:[push_back]
+getAllTestCasesSorted call:[getAllTestsSorted,getRegistryHub,getTestCaseRegistry] noreturn:[getAllTestsSorted]
+TestRegistry
+registerTest call:[empty,getTestCaseInfo,push_back,registerTest,str,withName] noreturn:[push_back,registerTest]
+getAllTests
+getAllTestsSorted call:[empty,enforceNoDuplicateTestCases,runOrder,sortTests] noreturn:[enforceNoDuplicateTestCases,runOrder]
+FreeFunctionTestCase
+invoke call:[m_fun] noreturn:[m_fun]
+extractClassName call:[rfind,startsWith,substr] noreturn:[substr]
+registerTestCase call:[extractClassName,getMutableRegistryHub,makeTestCase,registerTest] noreturn:[registerTest]
+registerTestCaseFunction call:[FreeFunctionTestCase,registerTestCase] noreturn:[registerTestCase]
+AutoReg call:[registerTestCaseFunction] noreturn:[registerTestCaseFunction]
+AutoReg
+ReporterRegistry
+create call:[ReporterConfig,create,end,find] noreturn:[create]
+registerReporter call:[insert,make_pair] noreturn:[insert]
+registerListener call:[push_back] noreturn:[push_back]
+getFactories
+getListeners
+ExceptionTranslatorRegistry call:[deleteAll] noreturn:[deleteAll]
+registerTranslator call:[push_back] noreturn:[push_back]
+translateActiveException call:[tryTranslators,what] noreturn:[tryTranslators,what]
+tryTranslators call:[begin,empty,end,translate] noreturn:[translate]
+RegistryHub
+getReporterRegistry
+getTestCaseRegistry
+getExceptionTranslatorRegistry
+getTagAliasRegistry
+registerReporter call:[registerReporter] noreturn:[registerReporter]
+registerListener call:[registerListener] noreturn:[registerListener]
+registerTest call:[registerTest] noreturn:[registerTest]
+registerTranslator call:[registerTranslator] noreturn:[registerTranslator]
+registerTagAlias call:[add] noreturn:[add]
+getTheRegistryHub call:[RegistryHub] noreturn:[RegistryHub]
+getRegistryHub call:[getTheRegistryHub] noreturn:[getTheRegistryHub]
+getMutableRegistryHub call:[getTheRegistryHub] noreturn:[getTheRegistryHub]
+cleanUp call:[cleanUpContext,getTheRegistryHub] noreturn:[cleanUpContext]
+translateActiveException call:[getExceptionTranslatorRegistry,getRegistryHub,translateActiveException] noreturn:[translateActiveException]
+NotImplementedException call:[str] noreturn:[str]
+what call:[c_str] noreturn:[c_str]
+FileStream call:[c_str,domain_error,fail,open,str] noreturn:[domain_error]
+stream
+operator() call:[writeToDebugConsole] noreturn:[writeToDebugConsole]
+DebugOutStream
+stream
+CoutStream
+stream
+cout
+cerr
+clog
+Context
+Context call:[deleteAllValues] noreturn:[deleteAllValues]
+getResultCapture
+getRunner
+getGeneratorIndex call:[getCurrentIndex,getGeneratorInfo,getGeneratorsForCurrentTest] noreturn:[getCurrentIndex]
+advanceGeneratorsForCurrentTest call:[findGeneratorsForCurrentTest,moveNext] noreturn:[moveNext]
+getConfig
+setResultCapture
+setRunner
+setConfig
+findGeneratorsForCurrentTest call:[end,find,getCurrentTestName,getResultCapture]
+getGeneratorsForCurrentTest call:[createGeneratorsForTest,findGeneratorsForCurrentTest,getCurrentTestName,getResultCapture,insert,make_pair] noreturn:[insert]
+getCurrentMutableContext call:[Context] noreturn:[Context]
+getCurrentContext call:[getCurrentMutableContext] noreturn:[getCurrentMutableContext]
+cleanUpContext
+ErrnoGuard
+ErrnoGuard
+IColourImpl
+use
+instance
+use call:[logic_error,setColour] noreturn:[logic_error]
+instance
+setColour call:[cout]
+platformColourInstance call:[getConfig,getCurrentContext,instance,isDebuggerActive,isatty,useColour] noreturn:[instance]
+Colour call:[use] noreturn:[use]
+Colour
+Colour call:[use] noreturn:[use]
+use call:[platformColourInstance,use] noreturn:[use]
+GeneratorInfo
+moveNext
+getCurrentIndex
+GeneratorsForTest call:[deleteAll] noreturn:[deleteAll]
+getGeneratorInfo call:[GeneratorInfo,end,find,insert,make_pair,push_back]
+moveNext call:[begin,end,moveNext]
+createGeneratorsForTest call:[GeneratorsForTest] noreturn:[GeneratorsForTest]
+AssertionInfo
+AssertionInfo
+AssertionResult
+AssertionResult
+AssertionResult
+succeeded call:[isOk] noreturn:[isOk]
+isOk call:[isOk,shouldSuppressFailure] noreturn:[shouldSuppressFailure]
+getResultType
+hasExpression
+hasMessage call:[empty] noreturn:[empty]
+capturedExpressionWithSecondArgument call:[return,string]
+getExpression call:[capturedExpressionWithSecondArgument,isFalseTest] noreturn:[capturedExpressionWithSecondArgument]
+getExpressionInMacro call:[capturedExpressionWithSecondArgument,string] noreturn:[capturedExpressionWithSecondArgument]
+hasExpandedExpression call:[getExpandedExpression,getExpression,hasExpression] noreturn:[getExpression]
+getExpandedExpression call:[reconstructExpression] noreturn:[reconstructExpression]
+getMessage
+getSourceInfo
+getTestMacroName
+discardDecomposedExpression
+expandDecomposedExpression call:[reconstructExpression] noreturn:[reconstructExpression]
+parseSpecialTag call:[startsWith]
+isReservedTag call:[isalnum,parseSpecialTag,size] noreturn:[isalnum]
+enforceNotReservedTag call:[Colour,isReservedTag,runtime_error,str] noreturn:[runtime_error]
+makeTestCase call:[TestCase,clear,enforceNotReservedTag,info,insert,parseSpecialTag,size,startsWith] noreturn:[TestCase,enforceNotReservedTag,insert]
+setTags call:[begin,clear,end,insert,parseSpecialTag,str,toLower] noreturn:[insert,str]
+TestCaseInfo call:[setTags] noreturn:[setTags]
+TestCaseInfo
+isHidden call:[return]
+throws call:[return]
+okToFail call:[return]
+expectedToFail call:[return]
+TestCase
+TestCase
+withName call:[other]
+swap call:[swap] noreturn:[swap]
+invoke call:[invoke] noreturn:[invoke]
+operator== call:[get]
+operator<
+operator= call:[swap,temp]
+getTestCaseInfo
+Version
+operator<<
+libraryVersion call:[version]
+MessageInfo
+ScopedMessage call:[getResultCapture,pushScopedMessage,str] noreturn:[pushScopedMessage]
+ScopedMessage
+ScopedMessage call:[getResultCapture,popScopedMessage,uncaught_exception] noreturn:[popScopedMessage]
+LegacyReporterAdapter
+LegacyReporterAdapter
+getPreferences call:[shouldRedirectStdout]
+noMatchingTestCases
+testRunStarting call:[StartTesting] noreturn:[StartTesting]
+testGroupStarting call:[StartGroup] noreturn:[StartGroup]
+testCaseStarting call:[StartTestCase] noreturn:[StartTestCase]
+sectionStarting call:[StartSection] noreturn:[StartSection]
+assertionStarting
+assertionEnded call:[Result,begin,build,c_str,end,getResultType,rb,setResultType] noreturn:[Result]
+sectionEnded call:[EndSection,NoAssertionsInSection] noreturn:[EndSection,NoAssertionsInSection]
+testCaseEnded call:[EndTestCase] noreturn:[EndTestCase]
+testGroupEnded call:[Aborted,EndGroup] noreturn:[Aborted,EndGroup]
+testRunEnded call:[EndTesting] noreturn:[EndTesting]
+skipTest
+getCurrentTicks call:[gettimeofday]
+start call:[getCurrentTicks] noreturn:[getCurrentTicks]
+getElapsedMicroseconds call:[getCurrentTicks]
+getElapsedMilliseconds call:[getElapsedMicroseconds]
+getElapsedSeconds call:[getElapsedMicroseconds]
+startsWith call:[begin,end,equal,size] noreturn:[equal]
+startsWith call:[empty]
+endsWith call:[equal,rbegin,rend,size] noreturn:[equal]
+endsWith call:[empty,size]
+contains call:[find]
+toLowerCh call:[tolower]
+toLowerInPlace call:[begin,end,transform] noreturn:[transform]
+toLower call:[toLowerInPlace]
+trim call:[find_first_not_of,find_last_not_of,string,substr] noreturn:[string]
+replaceInPlace call:[find,size,substr] noreturn:[find]
+pluralise
+operator<<
+SourceLineInfo
+SourceLineInfo
+empty
+operator== call:[strcmp]
+operator< call:[strcmp]
+seedRng call:[rngSeed,srand] noreturn:[srand]
+rngSeed call:[getConfig,getCurrentContext,rngSeed] noreturn:[rngSeed]
+operator<<
+throwLogicError call:[alwaysTrue,logic_error,str] noreturn:[logic_error]
+SectionInfo
+Section call:[start] noreturn:[start]
+Section call:[endInfo,getElapsedSeconds,getResultCapture,sectionEnded,sectionEndedEarly,uncaught_exception] noreturn:[sectionEnded,sectionEndedEarly]
+operatorbool
+isDebuggerActive
+writeToDebugConsole call:[cout]
+which call:[return,sizeof]
+rawMemoryToString call:[setfill,setw,str,which] noreturn:[str]
+toString < Detail :: Approx > call:[empty,getConfig,getCurrentContext,showInvisibles,size,substr]
+toString < Detail :: Approx > call:[reserve,size,toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+toString < Detail :: Approx > call:[string,toString < Detail :: Approx >] noreturn:[string]
+toString < Detail :: Approx > call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+toString < Detail :: Approx > call:[string,toString < Detail :: Approx >,wstring] noreturn:[string]
+toString < Detail :: Approx > call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+toString < Detail :: Approx > call:[str] noreturn:[str]
+toString < Detail :: Approx > call:[str] noreturn:[str]
+toString < Detail :: Approx > call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+fpToString call:[find_last_not_of,setprecision,size,str,substr] noreturn:[substr]
+toString < Detail :: Approx > call:[fpToString] noreturn:[fpToString]
+toString < Detail :: Approx > call:[fpToString]
+toString < Detail :: Approx >
+toString < Detail :: Approx > call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+toString < Detail :: Approx > call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+toString < Detail :: Approx > call:[toString < Detail :: Approx >] noreturn:[toString < Detail :: Approx >]
+toString < Detail :: Approx > call:[str] noreturn:[str]
+toString < Detail :: Approx > call:[str] noreturn:[str]
+toString < Detail :: Approx >
+ResultBuilder
+ResultBuilder
+setResultType
+setResultType
+endExpression call:[assertionPassed,assertionRun,build,getConfig,getCurrentContext,getResultCapture,handleResult,includeSuccessfulResults,isBinaryExpression,isFalseTest,negate] noreturn:[assertionPassed,handleResult,negate]
+useActiveException call:[captureResult,stream,translateActiveException] noreturn:[captureResult]
+captureResult call:[captureExpression,setResultType] noreturn:[captureExpression]
+captureExpectedException call:[Equals,MatchAllOf < std :: string >,captureExpectedException,empty] noreturn:[captureExpectedException]
+captureExpectedException call:[assert,capturedExpressionWithSecondArgument,handleResult,isFalseTest,match,result,translateActiveException] noreturn:[handleResult]
+captureExpression call:[build,handleResult] noreturn:[handleResult]
+handleResult call:[aborting,assertionEnded,getConfig,getCurrentContext,getResultCapture,getRunner,isOk,shouldDebugBreak]
+react call:[TestFailureException] noreturn:[TestFailureException]
+shouldDebugBreak
+allowThrows call:[allowThrows,getConfig,getCurrentContext] noreturn:[allowThrows]
+build call:[build] noreturn:[build]
+build call:[AssertionResult,assert,m_stream,str] noreturn:[AssertionResult,str]
+reconstructExpression call:[capturedExpressionWithSecondArgument] noreturn:[capturedExpressionWithSecondArgument]
+setExceptionGuard
+unsetExceptionGuard
+TagAliasRegistry
+find call:[Option < TagAlias >,end,find] noreturn:[Option < TagAlias >]
+expandAliases call:[begin,end,find,size,substr] noreturn:[substr]
+add call:[Colour,TagAlias,c_str,domain_error,endsWith,find,insert,make_pair,startsWith,str] noreturn:[domain_error]
+ITagAliasRegistry
+get call:[getRegistryHub,getTagAliasRegistry] noreturn:[getTagAliasRegistry]
+RegistrarForTagAliases call:[getMutableRegistryHub,registerTagAlias] noreturn:[registerTagAlias]
+CasedString
+adjustString call:[toLower]
+caseSensitivitySuffix call:[string] noreturn:[string]
+StringMatcherBase
+describe call:[caseSensitivitySuffix,reserve,size]
+EqualsMatcher
+match call:[adjustString]
+ContainsMatcher
+match call:[adjustString,contains] noreturn:[contains]
+StartsWithMatcher
+match call:[adjustString,startsWith] noreturn:[startsWith]
+EndsWithMatcher
+match call:[adjustString,endsWith] noreturn:[endsWith]
+Equals call:[CasedString,EqualsMatcher] noreturn:[EqualsMatcher]
+Contains call:[CasedString,ContainsMatcher] noreturn:[ContainsMatcher]
+EndsWith call:[CasedString,EndsWithMatcher] noreturn:[EndsWithMatcher]
+StartsWith call:[CasedString,StartsWithMatcher] noreturn:[StartsWithMatcher]
+add call:[push_back] noreturn:[push_back]
+getPreferences call:[getPreferences] noreturn:[getPreferences]
+noMatchingTestCases call:[begin,end,noMatchingTestCases] noreturn:[noMatchingTestCases]
+testRunStarting call:[begin,end,testRunStarting] noreturn:[testRunStarting]
+testGroupStarting call:[begin,end,testGroupStarting] noreturn:[testGroupStarting]
+testCaseStarting call:[begin,end,testCaseStarting] noreturn:[testCaseStarting]
+sectionStarting call:[begin,end,sectionStarting] noreturn:[sectionStarting]
+assertionStarting call:[assertionStarting,begin,end] noreturn:[assertionStarting]
+assertionEnded call:[assertionEnded,begin,end] noreturn:[assertionEnded]
+sectionEnded call:[begin,end,sectionEnded] noreturn:[sectionEnded]
+testCaseEnded call:[begin,end,testCaseEnded] noreturn:[testCaseEnded]
+testGroupEnded call:[begin,end,testGroupEnded] noreturn:[testGroupEnded]
+testRunEnded call:[begin,end,testRunEnded] noreturn:[testRunEnded]
+skipTest call:[begin,end,skipTest] noreturn:[skipTest]
+tryAsMulti
+addReporter call:[Ptr < IStreamingReporter >,add,tryAsMulti] noreturn:[add]
+getFormattedDuration call:[sprintf,string] noreturn:[string]
+StreamingReporterBase
+getPreferences
+noMatchingTestCases
+testRunStarting
+testGroupStarting
+testCaseStarting
+sectionStarting call:[push_back] noreturn:[push_back]
+sectionEnded call:[pop_back] noreturn:[pop_back]
+testCaseEnded call:[reset] noreturn:[reset]
+testGroupEnded call:[reset] noreturn:[reset]
+testRunEnded call:[reset] noreturn:[reset]
+skipTest
+SectionNode
+operator==
+operator== call:[operator==] noreturn:[operator==]
+BySectionInfo
+BySectionInfo
+operator() call:[return] noreturn:[return]
+CumulativeReporterBase
+getPreferences
+testRunStarting
+testGroupStarting
+testCaseStarting
+sectionStarting call:[BySectionInfo,Counts,SectionNode,back,begin,empty,end,find_if,incompleteStats,push_back] noreturn:[SectionNode,push_back]
+assertionStarting
+assertionEnded call:[assert,back,empty,prepareExpandedExpression,push_back]
+sectionEnded call:[assert,back,empty,pop_back] noreturn:[pop_back]
+testCaseEnded call:[Node < TestCaseStats , SectionNode >,assert,push_back,reset,size]
+testGroupEnded call:[Node < TestGroupStats , Node < TestCaseStats , SectionNode > >,push_back,swap] noreturn:[push_back]
+testRunEnded call:[Node < TestRunStats , Node < TestGroupStats , Node < TestCaseStats , SectionNode > > >,push_back,swap,testRunEndedCumulative] noreturn:[testRunEndedCumulative]
+skipTest
+prepareExpandedExpression call:[discardDecomposedExpression,expandDecomposedExpression,isOk] noreturn:[discardDecomposedExpression,expandDecomposedExpression]
+TestEventListenerBase
+assertionStarting
+assertionEnded
+create call:[LegacyReporterAdapter,T] noreturn:[LegacyReporterAdapter]
+getDescription call:[getDescription] noreturn:[getDescription]
+LegacyReporterRegistrar call:[ReporterFactory,getMutableRegistryHub,registerReporter] noreturn:[registerReporter]
+create call:[T] noreturn:[T]
+getDescription call:[string] noreturn:[string]
+ListenerRegistrar call:[ListenerFactory,getMutableRegistryHub,registerListener] noreturn:[registerListener]
+XmlEncode
+encodeTo call:[setfill,setw,size]
+operator<< call:[encodeTo]
+ScopedElement
+ScopedElement
+ScopedElement call:[endElement] noreturn:[endElement]
+writeText call:[writeText]
+writeAttribute call:[writeAttribute]
+XmlWriter call:[writeDeclaration] noreturn:[writeDeclaration]
+XmlWriter call:[writeDeclaration] noreturn:[writeDeclaration]
+XmlWriter call:[empty,endElement] noreturn:[endElement]
+startElement call:[ensureTagClosed,newlineIfNecessary,push_back]
+scopedElement call:[scoped,startElement]
+endElement call:[back,newlineIfNecessary,pop_back,size,substr]
+writeAttribute call:[XmlEncode,empty]
+writeAttribute
+writeAttribute call:[str,writeAttribute] noreturn:[writeAttribute]
+writeText call:[XmlEncode,empty,ensureTagClosed]
+writeComment call:[ensureTagClosed]
+writeStylesheetRef
+writeBlankLine call:[ensureTagClosed]
+ensureTagClosed
+writeDeclaration
+newlineIfNecessary
+XmlReporter
+getDescription
+getStylesheetRef call:[string] noreturn:[string]
+writeSourceInfo call:[writeAttribute] noreturn:[writeAttribute]
+noMatchingTestCases call:[noMatchingTestCases] noreturn:[noMatchingTestCases]
+testRunStarting call:[empty,getStylesheetRef,name,startElement,testRunStarting,writeAttribute,writeStylesheetRef] noreturn:[writeAttribute,writeStylesheetRef]
+testGroupStarting call:[startElement,testGroupStarting,writeAttribute] noreturn:[writeAttribute]
+testCaseStarting call:[ensureTagClosed,showDurations,start,startElement,testCaseStarting,trim,writeAttribute,writeSourceInfo] noreturn:[ensureTagClosed,start]
+sectionStarting call:[ensureTagClosed,sectionStarting,startElement,trim,writeAttribute,writeSourceInfo] noreturn:[ensureTagClosed]
+assertionStarting
+assertionEnded call:[begin,end,endElement,getExpandedExpression,getExpression,getMessage,getResultType,getSourceInfo,getTestMacroName,hasExpression,includeSuccessfulResults,isOk,scopedElement,startElement,succeeded,writeAttribute,writeSourceInfo,writeText] noreturn:[endElement,writeText]
+sectionEnded call:[endElement,scopedElement,sectionEnded,showDurations,writeAttribute] noreturn:[endElement,writeAttribute]
+testCaseEnded call:[allOk,empty,endElement,getElapsedSeconds,scopedElement,showDurations,testCaseEnded,trim,writeAttribute,writeText] noreturn:[endElement,writeAttribute,writeText]
+testGroupEnded call:[endElement,scopedElement,testGroupEnded,writeAttribute] noreturn:[endElement]
+testRunEnded call:[endElement,scopedElement,testRunEnded,writeAttribute] noreturn:[endElement]
+getCurrentTimestamp call:[gmtime,sizeof,strftime,string,time] noreturn:[string]
+JunitReporter
+getDescription
+noMatchingTestCases
+testRunStarting call:[startElement,testRunStarting] noreturn:[startElement]
+testGroupStarting call:[start,str,testGroupStarting] noreturn:[testGroupStarting]
+testCaseStarting call:[okToFail] noreturn:[okToFail]
+assertionEnded call:[assertionEnded,getResultType] noreturn:[assertionEnded]
+testCaseEnded call:[testCaseEnded] noreturn:[testCaseEnded]
+testGroupEnded call:[back,getElapsedSeconds,testGroupEnded,writeGroup] noreturn:[writeGroup]
+testRunEndedCumulative call:[endElement] noreturn:[endElement]
+writeGroup call:[begin,end,getCurrentTimestamp,scopedElement,showDurations,str,total,trim,writeAttribute,writeTestCase,writeText] noreturn:[writeAttribute,writeTestCase,writeText]
+writeTestCase call:[assert,empty,front,size,writeSection] noreturn:[writeSection]
+writeSection call:[begin,empty,end,scopedElement,toString < Detail :: Approx >,trim,writeAssertions,writeAttribute,writeSection,writeText] noreturn:[writeAttribute,writeSection,writeText]
+writeAssertions call:[begin,end,writeAssertion] noreturn:[writeAssertion]
+writeAssertion call:[begin,empty,end,getExpandedExpression,getMessage,getResultType,getSourceInfo,getTestMacroName,isOk,scopedElement,str,writeAttribute,writeText] noreturn:[writeText]
+ConsoleReporter
+getDescription
+noMatchingTestCases
+assertionStarting
+assertionEnded call:[getResultType,includeSuccessfulResults,isOk,lazyPrint,print,printer]
+sectionStarting call:[sectionStarting] noreturn:[sectionStarting]
+sectionEnded call:[colour,getFormattedDuration,lazyPrint,sectionEnded,showDurations,size] noreturn:[sectionEnded]
+testCaseEnded call:[testCaseEnded]
+testGroupEnded call:[printSummaryDivider,printTotals,testGroupEnded] noreturn:[testGroupEnded]
+testRunEnded call:[printTotals,printTotalsDivider,testRunEnded] noreturn:[testRunEnded]
+AssertionPrinter call:[getResultType,isOk,size]
+print call:[isOk,printMessage,printOriginalExpression,printReconstructedExpression,printResultType,printSourceInfo,total] noreturn:[printMessage,printReconstructedExpression]
+printResultType call:[colourGuard,empty]
+printOriginalExpression call:[colourGuard,getExpressionInMacro,hasExpression]
+printReconstructedExpression call:[Text,TextAttributes,colourGuard,getExpandedExpression,hasExpandedExpression,setIndent]
+printMessage call:[Text,TextAttributes,begin,empty,end,setIndent]
+printSourceInfo call:[colourGuard,getSourceInfo]
+lazyPrint call:[lazyPrintGroupInfo,lazyPrintRunInfo,printTestCaseAndSectionHeader] noreturn:[lazyPrintGroupInfo,lazyPrintRunInfo]
+lazyPrintRunInfo call:[colour,getLineOfChars < '~' >,libraryVersion,rngSeed]
+lazyPrintGroupInfo call:[empty,printClosedHeader]
+printTestCaseAndSectionHeader call:[assert,back,begin,colourGuard,empty,end,getLineOfChars < '-' >,getLineOfChars < '.' >,printHeaderString,printOpenHeader,size] noreturn:[printHeaderString]
+printClosedHeader call:[getLineOfChars < '.' >,printOpenHeader]
+printOpenHeader call:[colourGuard,getLineOfChars < '-' >,printHeaderString] noreturn:[printHeaderString]
+printHeaderString call:[Text,TextAttributes,find,setIndent,setInitialIndent]
+SummaryColumn
+addRow call:[begin,end,push_back,size,str]
+printTotals call:[Colour,SummaryColumn,addRow,allPassed,pluralise,printSummaryRow,push_back,total] noreturn:[printSummaryRow]
+printSummaryRow call:[Colour,begin,empty,end]
+makeRatio call:[return]
+findMax
+printTotalsDivider call:[Colour,allPassed,findMax,makeRatio,string,total] noreturn:[string]
+printSummaryDivider call:[getLineOfChars < '-' >]
+CompactReporter
+getDescription
+getPreferences
+noMatchingTestCases
+assertionStarting
+assertionEnded call:[getResultType,includeSuccessfulResults,isOk,print,printer]
+sectionEnded call:[getFormattedDuration,showDurations]
+testRunEnded call:[printTotals,testRunEnded] noreturn:[testRunEnded]
+AssertionPrinter
+print call:[begin,failedString,getResultType,hasExpression,isOk,passedString,printExpressionWas,printIssue,printMessage,printOriginalExpression,printReconstructedExpression,printRemainingMessages,printResultType,printSourceInfo,string] noreturn:[printRemainingMessages,printResultType]
+dimColour
+failedString
+passedString
+printSourceInfo call:[colourGuard,getSourceInfo]
+printResultType call:[colourGuard,empty]
+printIssue
+printExpressionWas call:[colour,dimColour,hasExpression,printOriginalExpression] noreturn:[printOriginalExpression]
+printOriginalExpression call:[getExpression,hasExpression] noreturn:[getExpression]
+printReconstructedExpression call:[colour,dimColour,getExpandedExpression,hasExpandedExpression] noreturn:[getExpandedExpression]
+printMessage call:[end]
+printRemainingMessages call:[colourGuard,dimColour,distance,end,pluralise]
+bothOrAll call:[string]
+printTotals call:[bothOrAll,colour,pluralise,string,total]
+NonCopyable
+IShared
+IStream
+FileStream
+CoutStream
+DebugOutStream
+StreamBufBase
+IContext
+IResultCapture
+ITestCase
+ITestCaseRegistry
+IRegistryHub
+IMutableRegistryHub
+IExceptionTranslator
+IExceptionTranslatorRegistry
+IReporter
+IReporterFactory
+IReporterRegistry
+IStreamingReporter
+AssertionStats
+SectionStats
+TestCaseStats
+TestGroupStats
+TestRunStats
+SectionNode
+CumulativeReporterBase
+StreamingReporterBase
+ConsoleReporter
+CompactReporter
+IRunner
+IMutableContext
+IConfig
+XmlReporter
+JunitReporter
+TestRegistry
+FreeFunctionTestCase
+IGeneratorInfo
+IGeneratorsForTest
+WildcardPattern
+Pattern
+NamePattern
+TagPattern
+ExcludedPattern
+MatcherUntypedBase
+dummy
+ITracker
+TrackerBase
+SectionTracker
+IndexTracker
+main call:[Session,return,run] noreturn:[return]
+____C_A_T_C_H____T_E_S_T____13 call:[SourceLineInfo,VerificaVelha,__catchResult,alwaysTrue,endExpression,isTrue,react,shouldDebugBreak,useActiveException,while] noreturn:[alwaysTrue,endExpression,react,useActiveException,while]
+create call:[XmlReporter] noreturn:[XmlReporter]
+getDescription call:[getDescription] noreturn:[getDescription]
+ReporterRegistrar < XmlReporter > call:[ReporterFactory,getMutableRegistryHub,registerReporter] noreturn:[registerReporter]
+create call:[JunitReporter] noreturn:[JunitReporter]
+getDescription call:[getDescription] noreturn:[getDescription]
+ReporterRegistrar < JunitReporter > call:[ReporterFactory,getMutableRegistryHub,registerReporter] noreturn:[registerReporter]
+create call:[ConsoleReporter] noreturn:[ConsoleReporter]
+getDescription call:[getDescription] noreturn:[getDescription]
+ReporterRegistrar < ConsoleReporter > call:[ReporterFactory,getMutableRegistryHub,registerReporter] noreturn:[registerReporter]
+create call:[CompactReporter] noreturn:[CompactReporter]
+getDescription call:[getDescription] noreturn:[getDescription]
+ReporterRegistrar < CompactReporter > call:[ReporterFactory,getMutableRegistryHub,registerReporter] noreturn:[registerReporter]
+getLineOfChars < '~' > call:[memset]
+getLineOfChars < '-' > call:[memset]
+getLineOfChars < '.' > call:[memset]
+Node < TestCaseStats , SectionNode >
+Node < TestCaseStats , SectionNode >
+Node < TestGroupStats , Node < TestCaseStats , SectionNode > >
+Node < TestGroupStats , Node < TestCaseStats , SectionNode > >
+Node < TestRunStats , Node < TestGroupStats , Node < TestCaseStats , SectionNode > > >
+Node < TestRunStats , Node < TestGroupStats , Node < TestCaseStats , SectionNode > > >
+StreamBufImpl < OutputDebugWriter , 256 > call:[setp,sizeof] noreturn:[setp]
+StreamBufImpl < OutputDebugWriter , 256 > call:[sync] noreturn:[sync]
+overflow call:[epptr,operator(),pbase,sputc,string,sync] noreturn:[operator(),sputc]
+sync call:[epptr,operator(),pbase,pptr,setp,string] noreturn:[setp]
+LazyStat < TestRunInfo >
+operator= call:[operator=]
+reset call:[reset]
+LazyStat < GroupInfo >
+operator= call:[operator=]
+reset call:[reset]
+LazyStat < TestCaseInfo >
+operator= call:[operator=]
+reset call:[reset]
+Arg
+Arg
+dbgName call:[empty]
+commands call:[begin,empty,end,str] noreturn:[str]
+addOptName call:[empty,logic_error,push_back,startsWith,substr] noreturn:[logic_error,push_back,substr]
+setPositionalArg
+ArgBuilder
+bind
+bind
+bind
+bind
+bind
+bind
+bind
+describe
+detail
+OptBuilder
+OptBuilder
+operator[] call:[addOptName]
+CommandLine < ConfigData >
+CommandLine < ConfigData > call:[Arg,get,reset] noreturn:[reset]
+setThrowOnUnrecognisedTokens
+operator[] call:[Arg,addOptName,back,builder,push_back]
+operator[] call:[Arg,builder,insert,make_pair,setPositionalArg]
+operator[] call:[Arg,builder,get,logic_error,reset] noreturn:[logic_error]
+bindProcessName
+bindProcessName
+optUsage call:[TextAttributes,begin,commands,desc,empty,end,setIndent,setWidth,size,string,usage]
+optUsage call:[optUsage,str] noreturn:[str]
+argSynopsis call:[end,find,get,logic_error] noreturn:[logic_error]
+argSynopsis call:[argSynopsis,str] noreturn:[str]
+usage call:[argSynopsis,empty,optUsage,validate] noreturn:[optUsage]
+usage call:[str,usage] noreturn:[str]
+parse call:[parseInto]
+parseInto call:[empty,find_last_of,parseIntoTokens,populate,set,string,substr] noreturn:[populate,substr]
+populate call:[populateFixedArgs,populateFloatingArgs,populateOptions,validate]
+populateOptions call:[begin,commands,empty,end,hasLongName,hasShortName,push_back,runtime_error,set,size,str,string,takesArg,what] noreturn:[push_back,runtime_error,set]
+populateFixedArgs call:[end,find,push_back,set,size] noreturn:[push_back,set]
+populateFloatingArgs call:[get,push_back,set,size] noreturn:[push_back,set]
+validate call:[begin,empty,end,get,logic_error,validate] noreturn:[logic_error,validate]
+addPattern < TestSpec :: NamePattern > call:[ExcludedPattern,NamePattern,clear,empty,push_back,size,startsWith,subString,substr] noreturn:[ExcludedPattern,push_back,substr]
+addPattern < TestSpec :: TagPattern > call:[ExcludedPattern,TagPattern,clear,empty,push_back,size,startsWith,subString,substr] noreturn:[ExcludedPattern,push_back,substr]
+Option < TagAlias >
+Option < TagAlias >
+Option < TagAlias >
+Option < TagAlias > call:[reset] noreturn:[reset]
+operator= call:[TagAlias,new,reset] noreturn:[TagAlias]
+operator= call:[TagAlias,new,reset]
+reset call:[TagAlias] noreturn:[TagAlias]
+operator*
+operator*
+operator.
+operator.
+valueOr
+some
+none
+operator!
+operatortype call:[makeSafe,some] noreturn:[makeSafe]
+Option < unsigned long long >
+Option < unsigned long long >
+Option < unsigned long long >
+Option < unsigned long long > call:[reset] noreturn:[reset]
+operator= call:[long,new,reset] noreturn:[long]
+operator= call:[long,new,reset]
+reset call:[long] noreturn:[long]
+operator*
+operator*
+operator.
+operator.
+valueOr
+some
+none
+operator!
+operatortype call:[makeSafe,some] noreturn:[makeSafe]
+Option < TestRunInfo >
+Option < TestRunInfo >
+Option < TestRunInfo >
+Option < TestRunInfo > call:[reset] noreturn:[reset]
+operator= call:[TestRunInfo,new,reset] noreturn:[TestRunInfo]
+operator= call:[TestRunInfo,new,reset]
+reset call:[TestRunInfo] noreturn:[TestRunInfo]
+operator*
+operator*
+operator.
+operator.
+valueOr
+some
+none
+operator!
+operatortype call:[makeSafe,some] noreturn:[makeSafe]
+Option < GroupInfo >
+Option < GroupInfo >
+Option < GroupInfo >
+Option < GroupInfo > call:[reset] noreturn:[reset]
+operator= call:[GroupInfo,new,reset] noreturn:[GroupInfo]
+operator= call:[GroupInfo,new,reset]
+reset call:[GroupInfo] noreturn:[GroupInfo]
+operator*
+operator*
+operator.
+operator.
+valueOr
+some
+none
+operator!
+operatortype call:[makeSafe,some] noreturn:[makeSafe]
+Option < TestCaseInfo >
+Option < TestCaseInfo >
+Option < TestCaseInfo >
+Option < TestCaseInfo > call:[reset] noreturn:[reset]
+operator= call:[TestCaseInfo,new,reset] noreturn:[TestCaseInfo]
+operator= call:[TestCaseInfo,new,reset]
+reset call:[TestCaseInfo] noreturn:[TestCaseInfo]
+operator*
+operator*
+operator.
+operator.
+valueOr
+some
+none
+operator!
+operatortype call:[makeSafe,some] noreturn:[makeSafe]
+ExpressionLhs < bool >
+operator== call:[captureExpression < Internal :: IsEqualTo >] noreturn:[captureExpression < Internal :: IsEqualTo >]
+operator!= call:[captureExpression < Internal :: IsNotEqualTo >] noreturn:[captureExpression < Internal :: IsNotEqualTo >]
+operator<
+operator>
+operator<=
+operator>=
+operator== call:[captureExpression < Internal :: IsEqualTo >] noreturn:[captureExpression < Internal :: IsEqualTo >]
+operator!= call:[captureExpression < Internal :: IsNotEqualTo >] noreturn:[captureExpression < Internal :: IsNotEqualTo >]
+endExpression call:[endExpression,setResultType] noreturn:[endExpression]
+reconstructExpression call:[toString] noreturn:[toString]
+captureExpression
+match call:[match,size]
+describe call:[reserve,size,toString] noreturn:[toString]
+operator&& call:[push_back]
+operator&&
+operator|| call:[MatchAnyOf < std :: string >]
+operator! call:[MatchNotOf < std :: string >] noreturn:[MatchNotOf < std :: string >]
+SharedImpl < IShared >
+addRef
+release
+SharedImpl < IConfig >
+addRef
+release
+SharedImpl < ITestCase >
+addRef
+release
+SharedImpl < IStreamingReporter >
+addRef
+release
+Ptr < IConfig const >
+Ptr < IConfig const > call:[addRef] noreturn:[addRef]
+Ptr < IConfig const > call:[addRef] noreturn:[addRef]
+Ptr < IConfig const > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < IReporterFactory >
+Ptr < IReporterFactory > call:[addRef] noreturn:[addRef]
+Ptr < IReporterFactory > call:[addRef] noreturn:[addRef]
+Ptr < IReporterFactory > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < ITestCase >
+Ptr < ITestCase > call:[addRef] noreturn:[addRef]
+Ptr < ITestCase > call:[addRef] noreturn:[addRef]
+Ptr < ITestCase > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < Pattern >
+Ptr < Pattern > call:[addRef] noreturn:[addRef]
+Ptr < Pattern > call:[addRef] noreturn:[addRef]
+Ptr < Pattern > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < IStreamingReporter >
+Ptr < IStreamingReporter > call:[addRef] noreturn:[addRef]
+Ptr < IStreamingReporter > call:[addRef] noreturn:[addRef]
+Ptr < IStreamingReporter > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < ITracker >
+Ptr < ITracker > call:[addRef] noreturn:[addRef]
+Ptr < ITracker > call:[addRef] noreturn:[addRef]
+Ptr < ITracker > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < Config >
+Ptr < Config > call:[addRef] noreturn:[addRef]
+Ptr < Config > call:[addRef] noreturn:[addRef]
+Ptr < Config > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < IReporter >
+Ptr < IReporter > call:[addRef] noreturn:[addRef]
+Ptr < IReporter > call:[addRef] noreturn:[addRef]
+Ptr < IReporter > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < SectionNode >
+Ptr < SectionNode > call:[addRef] noreturn:[addRef]
+Ptr < SectionNode > call:[addRef] noreturn:[addRef]
+Ptr < SectionNode > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < Node < TestCaseStats , SectionNode > >
+Ptr < Node < TestCaseStats , SectionNode > > call:[addRef] noreturn:[addRef]
+Ptr < Node < TestCaseStats , SectionNode > > call:[addRef] noreturn:[addRef]
+Ptr < Node < TestCaseStats , SectionNode > > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < Node < TestGroupStats , Node < TestCaseStats , SectionNode > > >
+Ptr < Node < TestGroupStats , Node < TestCaseStats , SectionNode > > > call:[addRef] noreturn:[addRef]
+Ptr < Node < TestGroupStats , Node < TestCaseStats , SectionNode > > > call:[addRef] noreturn:[addRef]
+Ptr < Node < TestGroupStats , Node < TestCaseStats , SectionNode > > > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+Ptr < Node < TestRunStats , Node < TestGroupStats , Node < TestCaseStats , SectionNode > > > >
+Ptr < Node < TestRunStats , Node < TestGroupStats , Node < TestCaseStats , SectionNode > > > > call:[addRef] noreturn:[addRef]
+Ptr < Node < TestRunStats , Node < TestGroupStats , Node < TestCaseStats , SectionNode > > > > call:[addRef] noreturn:[addRef]
+Ptr < Node < TestRunStats , Node < TestGroupStats , Node < TestCaseStats , SectionNode > > > > call:[release] noreturn:[release]
+reset call:[release] noreturn:[release]
+operator= call:[swap,temp]
+operator= call:[swap,temp]
+swap call:[swap] noreturn:[swap]
+get
+operator*
+operator.
+operator!
+operatortype call:[makeSafe] noreturn:[makeSafe]
+CommonArgProperties < ConfigData >
+CommonArgProperties < ConfigData >
+takesArg call:[empty] noreturn:[empty]
+validate call:[isSet,logic_error] noreturn:[logic_error]
+set
+takesArg
+clone call:[NullBinder < ConfigData >] noreturn:[NullBinder < ConfigData >]
+BoundArgFunction < ConfigData >
+BoundArgFunction < ConfigData >
+BoundArgFunction < ConfigData >
+operator= call:[clone]
+BoundArgFunction < ConfigData >
+set call:[set] noreturn:[set]
+takesArg call:[takesArg] noreturn:[takesArg]
+isSet
+BinaryExpression < bool , Internal :: IsEqualTo , bool >
+endExpression call:[compare < Internal :: IsEqualTo >,endExpression,setResultType] noreturn:[endExpression]
+isBinaryExpression
+reconstructExpression call:[find,getName,reserve,size,toString]
+BinaryExpression < bool , Internal :: IsNotEqualTo , bool >
+endExpression call:[compare < Internal :: IsNotEqualTo >,endExpression,setResultType] noreturn:[endExpression]
+isBinaryExpression
+reconstructExpression call:[find,getName,reserve,size,toString]
+MatchNotOf < std :: string >
+match call:[match] noreturn:[match]
+describe call:[toString] noreturn:[toString]
+MatchNotOf < std >
+match call:[match] noreturn:[match]
+describe call:[toString] noreturn:[toString]
+match call:[match,size]
+describe call:[reserve,size,toString] noreturn:[toString]
+operator|| call:[push_back]
+match call:[match,size]
+describe call:[reserve,size,toString] noreturn:[toString]
+operator|| call:[push_back]
+IArgFunction < ConfigData >
+compare < Internal :: IsEqualTo >
+compare < Internal :: IsNotEqualTo >

@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.5"/>
+    <errors>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;NotImplementedException&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;NotImplementedException&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="510"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;MethodTestCase&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;MethodTestCase&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="710"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;BorgType&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;BorgType&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1609"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ScopedMessage&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ScopedMessage&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2042"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Section&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Section&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2474"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ExceptionTranslatorRegistrar&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ExceptionTranslatorRegistrar&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2770"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ExceptionTranslator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ExceptionTranslator&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2748"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;EqualsMatcher&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;EqualsMatcher&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3002"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;ContainsMatcher&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;ContainsMatcher&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3006"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;StartsWithMatcher&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;StartsWithMatcher&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3010"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;EndsWithMatcher&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;EndsWithMatcher&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3014"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;ContainsElementMatcher&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;ContainsElementMatcher&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3042"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;ContainsMatcher&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;ContainsMatcher&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3058"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;EqualsMatcher&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;EqualsMatcher&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3079"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;NamePattern&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;NamePattern&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3650"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;TagPattern&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;TagPattern&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3663"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ExcludedPattern&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ExcludedPattern&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3674"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;TestSpecParser&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;TestSpecParser&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3731"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;FileStream&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;FileStream&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3931"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Config&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Config&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4038"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Text&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Text&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4184"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;BoundDataMember&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;BoundDataMember&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4551"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;BoundUnaryMethod&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;BoundUnaryMethod&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4561"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;BoundNullaryMethod&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;BoundNullaryMethod&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4573"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;BoundUnaryFunction&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;BoundUnaryFunction&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4587"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;BoundBinaryFunction&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;BoundBinaryFunction&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4601"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Text&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Text&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="5427"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;Colour&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;Colour&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="5587"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;TestRunInfo&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;TestRunInfo&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="5650"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;TestGroupStats&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;TestGroupStats&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="5759"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;TrackerHasName&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;TrackerHasName&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6150"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;StdErrRedirect&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;StdErrRedirect&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6635"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;FreeFunctionTestCase&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;FreeFunctionTestCase&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7412"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;GeneratorInfo&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;GeneratorInfo&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8090"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;LegacyReporterAdapter&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;LegacyReporterAdapter&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8550"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;StreamingReporterBase&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;StreamingReporterBase&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9644"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;BySectionInfo&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;BySectionInfo&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9735"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;TestEventListenerBase&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;TestEventListenerBase&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9872"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;LegacyReporterRegistrar&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;LegacyReporterRegistrar&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9904"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;XmlEncode&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;XmlEncode&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9989"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;XmlWriter&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;XmlWriter&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10086"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ScopedElement&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ScopedElement&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10049"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;XmlReporter&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;XmlReporter&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10211"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;JunitReporter&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;JunitReporter&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10458"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;ConsoleReporter&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;ConsoleReporter&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10673"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;CompactReporter&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;CompactReporter&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="11104"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ReporterRegistrar &amp;lt; XmlReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ReporterRegistrar &amp;lt; XmlReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9936"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ReporterRegistrar &amp;lt; JunitReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ReporterRegistrar &amp;lt; JunitReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9936"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ReporterRegistrar &amp;lt; ConsoleReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ReporterRegistrar &amp;lt; ConsoleReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9936"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ReporterRegistrar &amp;lt; CompactReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ReporterRegistrar &amp;lt; CompactReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9936"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;Arg&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;Arg&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4752"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ArgBuilder&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ArgBuilder&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4811"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;OptBuilder&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;OptBuilder&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4872"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Option &amp;lt; TagAlias &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Option &amp;lt; TagAlias &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3156"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Option &amp;lt; unsigned long long &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Option &amp;lt; unsigned long long &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3156"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Option &amp;lt; TestRunInfo &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Option &amp;lt; TestRunInfo &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3156"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Option &amp;lt; GroupInfo &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Option &amp;lt; GroupInfo &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3156"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Option &amp;lt; TestCaseInfo &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Option &amp;lt; TestCaseInfo &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3156"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; IConfig const &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; IConfig const &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; IReporterFactory &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; IReporterFactory &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; ITestCase &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; ITestCase &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; Pattern &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; Pattern &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; IStreamingReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; IStreamingReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; ITracker &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; ITracker &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; Config &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; Config &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; IReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; IReporter &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; SectionNode &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; SectionNode &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; Node &amp;lt; TestCaseStats , SectionNode &amp;gt; &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; Node &amp;lt; TestCaseStats , SectionNode &amp;gt; &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; Node &amp;lt; TestGroupStats , Node &amp;lt; TestCaseStats , SectionNode &amp;gt; &amp;gt; &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; Node &amp;lt; TestGroupStats , Node &amp;lt; TestCaseStats , SectionNode &amp;gt; &amp;gt; &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Ptr &amp;lt; Node &amp;lt; TestRunStats , Node &amp;lt; TestGroupStats , Node &amp;lt; TestCaseStats , SectionNode &amp;gt; &amp;gt; &amp;gt; &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Ptr &amp;lt; Node &amp;lt; TestRunStats , Node &amp;lt; TestGroupStats , Node &amp;lt; TestCaseStats , SectionNode &amp;gt; &amp;gt; &amp;gt; &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="570"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;CommonArgProperties &amp;lt; ConfigData &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;CommonArgProperties &amp;lt; ConfigData &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4712"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;BoundArgFunction &amp;lt; ConfigData &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;BoundArgFunction &amp;lt; ConfigData &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4520"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;MatchNotOf &amp;lt; std :: string &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;MatchNotOf &amp;lt; std :: string &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1136"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;MatchNotOf &amp;lt; std &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;MatchNotOf &amp;lt; std &amp;gt;&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1136"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;invoke&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;invoke&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="712" info="Function in derived class"/>
+            <location file="catch.hpp" line="684" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getValue&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getValue&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2520" info="Function in derived class"/>
+            <location file="catch.hpp" line="2511" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;size&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;size&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2524" info="Function in derived class"/>
+            <location file="catch.hpp" line="2512" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getValue&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getValue&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2543" info="Function in derived class"/>
+            <location file="catch.hpp" line="2511" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;size&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;size&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2547" info="Function in derived class"/>
+            <location file="catch.hpp" line="2512" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;matches&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;matches&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3654" info="Function in derived class"/>
+            <location file="catch.hpp" line="3646" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;matches&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;matches&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3665" info="Function in derived class"/>
+            <location file="catch.hpp" line="3646" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;matches&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;matches&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3676" info="Function in derived class"/>
+            <location file="catch.hpp" line="3646" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6738" info="Function in derived class"/>
+            <location file="catch.hpp" line="2071" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;lastAssertionPassed&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;lastAssertionPassed&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6758" info="Function in derived class"/>
+            <location file="catch.hpp" line="2086" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionPassed&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionPassed&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6763" info="Function in derived class"/>
+            <location file="catch.hpp" line="2087" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionRun&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionRun&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6770" info="Function in derived class"/>
+            <location file="catch.hpp" line="2088" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionStarted&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionStarted&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6775" info="Function in derived class"/>
+            <location file="catch.hpp" line="2072" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6805" info="Function in derived class"/>
+            <location file="catch.hpp" line="2074" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEndedEarly&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEndedEarly&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6818" info="Function in derived class"/>
+            <location file="catch.hpp" line="2075" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;pushScopedMessage&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;pushScopedMessage&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6828" info="Function in derived class"/>
+            <location file="catch.hpp" line="2076" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;popScopedMessage&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;popScopedMessage&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6832" info="Function in derived class"/>
+            <location file="catch.hpp" line="2077" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getCurrentTestName&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getCurrentTestName&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6836" info="Function in derived class"/>
+            <location file="catch.hpp" line="2079" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getLastResult&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getLastResult&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6842" info="Function in derived class"/>
+            <location file="catch.hpp" line="2080" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;exceptionEarlyReported&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;exceptionEarlyReported&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6846" info="Function in derived class"/>
+            <location file="catch.hpp" line="2082" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;handleFatalErrorCondition&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;handleFatalErrorCondition&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6850" info="Function in derived class"/>
+            <location file="catch.hpp" line="2084" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;aborting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;aborting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6888" info="Function in derived class"/>
+            <location file="catch.hpp" line="2168" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getAllTests&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getAllTests&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7385" info="Function in derived class"/>
+            <location file="catch.hpp" line="694" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getAllTestsSorted&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getAllTestsSorted&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7388" info="Function in derived class"/>
+            <location file="catch.hpp" line="695" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;invoke&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;invoke&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7414" info="Function in derived class"/>
+            <location file="catch.hpp" line="684" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;translateActiveException&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;translateActiveException&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7530" info="Function in derived class"/>
+            <location file="catch.hpp" line="2740" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;find&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;find&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7583" info="Function in derived class"/>
+            <location file="catch.hpp" line="3225" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;expandAliases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;expandAliases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7584" info="Function in derived class"/>
+            <location file="catch.hpp" line="3226" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getResultCapture&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getResultCapture&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7805" info="Function in derived class"/>
+            <location file="catch.hpp" line="649" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getRunner&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getRunner&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7808" info="Function in derived class"/>
+            <location file="catch.hpp" line="650" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getGeneratorIndex&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getGeneratorIndex&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7811" info="Function in derived class"/>
+            <location file="catch.hpp" line="651" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;advanceGeneratorsForCurrentTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;advanceGeneratorsForCurrentTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7816" info="Function in derived class"/>
+            <location file="catch.hpp" line="652" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getConfig&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getConfig&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7821" info="Function in derived class"/>
+            <location file="catch.hpp" line="653" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;setResultCapture&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;setResultCapture&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7826" info="Function in derived class"/>
+            <location file="catch.hpp" line="659" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;setRunner&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;setRunner&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7829" info="Function in derived class"/>
+            <location file="catch.hpp" line="660" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;setConfig&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;setConfig&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7832" info="Function in derived class"/>
+            <location file="catch.hpp" line="661" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;use&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;use&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7913" info="Function in derived class"/>
+            <location file="catch.hpp" line="7909" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;moveNext&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;moveNext&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8095" info="Function in derived class"/>
+            <location file="catch.hpp" line="538" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getCurrentIndex&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getCurrentIndex&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8103" info="Function in derived class"/>
+            <location file="catch.hpp" line="539" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getGeneratorInfo&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getGeneratorInfo&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8120" info="Function in derived class"/>
+            <location file="catch.hpp" line="545" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;moveNext&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;moveNext&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8131" info="Function in derived class"/>
+            <location file="catch.hpp" line="546" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8553" info="Function in derived class"/>
+            <location file="catch.hpp" line="5813" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8554" info="Function in derived class"/>
+            <location file="catch.hpp" line="5815" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8555" info="Function in derived class"/>
+            <location file="catch.hpp" line="5817" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8556" info="Function in derived class"/>
+            <location file="catch.hpp" line="5818" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8557" info="Function in derived class"/>
+            <location file="catch.hpp" line="5820" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8558" info="Function in derived class"/>
+            <location file="catch.hpp" line="5821" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8559" info="Function in derived class"/>
+            <location file="catch.hpp" line="5823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8560" info="Function in derived class"/>
+            <location file="catch.hpp" line="5826" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8561" info="Function in derived class"/>
+            <location file="catch.hpp" line="5828" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8562" info="Function in derived class"/>
+            <location file="catch.hpp" line="5829" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8563" info="Function in derived class"/>
+            <location file="catch.hpp" line="5830" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8564" info="Function in derived class"/>
+            <location file="catch.hpp" line="5831" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8565" info="Function in derived class"/>
+            <location file="catch.hpp" line="5833" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="11114" info="Function in derived class"/>
+            <location file="catch.hpp" line="9651" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="11120" info="Function in derived class"/>
+            <location file="catch.hpp" line="9657" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="11124" info="Function in derived class"/>
+            <location file="catch.hpp" line="5823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="11126" info="Function in derived class"/>
+            <location file="catch.hpp" line="5826" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="11151" info="Function in derived class"/>
+            <location file="catch.hpp" line="9682" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;addRef&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;addRef&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="619" info="Function in derived class"/>
+            <location file="catch.hpp" line="610" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;release&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;release&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="622" info="Function in derived class"/>
+            <location file="catch.hpp" line="611" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;set&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;set&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4544" info="Function in derived class"/>
+            <location file="catch.hpp" line="4511" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;takesArg&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;takesArg&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4545" info="Function in derived class"/>
+            <location file="catch.hpp" line="4512" info="Virtual function in base class"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;!isDebuggerActive()&amp;#039; is always true" verbose="Condition &amp;#039;!isDebuggerActive()&amp;#039; is always true" cwe="571" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="8045"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;existingReporter&amp;#039; is always true" verbose="Condition &amp;#039;existingReporter&amp;#039; is always true" cwe="571" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9592" info="Condition &amp;#039;existingReporter&amp;#039; is always true"/>
+            <location file="catch.hpp" line="9587" info="Assuming that condition &amp;#039;existingReporter&amp;#039; is not redundant"/>
+        </error>
+        <error id="rethrowNoCurrentException" severity="error" msg="Rethrowing current exception with &amp;#039;throw;&amp;#039;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" verbose="Rethrowing current exception with &amp;#039;throw;&amp;#039;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" cwe="480" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2755"/>
+        </error>
+        <error id="rethrowNoCurrentException" severity="error" msg="Rethrowing current exception with &amp;#039;throw;&amp;#039;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" verbose="Rethrowing current exception with &amp;#039;throw;&amp;#039;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" cwe="480" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7563"/>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &amp;#039;usage&amp;#039; shadows outer function" verbose="Local variable &amp;#039;usage&amp;#039; shadows outer function" cwe="398" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4945" info="Shadow variable"/>
+            <location file="catch.hpp" line="4993" info="Shadowed declaration"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: =[...];" verbose="syntax error: =[...];" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3350"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;!isDebuggerActive()&amp;#039; is always true" verbose="Condition &amp;#039;!isDebuggerActive()&amp;#039; is always true" cwe="571" file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7984"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1237" info="Function in derived class"/>
+            <location file="catch.hpp" line="924" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isBinaryExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isBinaryExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1951" info="Function in derived class"/>
+            <location file="catch.hpp" line="921" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1955" info="Function in derived class"/>
+            <location file="catch.hpp" line="924" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;describe&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;describe&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="2995" info="Function in derived class"/>
+            <location file="catch.hpp" line="1050" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3003" info="Function in derived class"/>
+            <location file="catch.hpp" line="1058" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3007" info="Function in derived class"/>
+            <location file="catch.hpp" line="1058" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3011" info="Function in derived class"/>
+            <location file="catch.hpp" line="1058" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;match&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3015" info="Function in derived class"/>
+            <location file="catch.hpp" line="1058" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3934" info="Function in derived class"/>
+            <location file="catch.hpp" line="3925" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3944" info="Function in derived class"/>
+            <location file="catch.hpp" line="3925" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3955" info="Function in derived class"/>
+            <location file="catch.hpp" line="3925" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getSectionsToRun&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getSectionsToRun&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4065" info="Function in derived class"/>
+            <location file="catch.hpp" line="3891" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testSpec&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testSpec&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4067" info="Function in derived class"/>
+            <location file="catch.hpp" line="3887" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;allowThrows&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;allowThrows&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4072" info="Function in derived class"/>
+            <location file="catch.hpp" line="3878" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;stream&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4073" info="Function in derived class"/>
+            <location file="catch.hpp" line="3879" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;name&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;name&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4074" info="Function in derived class"/>
+            <location file="catch.hpp" line="3880" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;includeSuccessfulResults&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;includeSuccessfulResults&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4075" info="Function in derived class"/>
+            <location file="catch.hpp" line="3881" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;warnAboutMissingAssertions&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;warnAboutMissingAssertions&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4076" info="Function in derived class"/>
+            <location file="catch.hpp" line="3883" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;showDurations&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;showDurations&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4077" info="Function in derived class"/>
+            <location file="catch.hpp" line="3886" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;runOrder&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;runOrder&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4078" info="Function in derived class"/>
+            <location file="catch.hpp" line="3888" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;rngSeed&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;rngSeed&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4079" info="Function in derived class"/>
+            <location file="catch.hpp" line="3889" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;useColour&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;useColour&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4080" info="Function in derived class"/>
+            <location file="catch.hpp" line="3890" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;shouldDebugBreak&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;shouldDebugBreak&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4081" info="Function in derived class"/>
+            <location file="catch.hpp" line="3882" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;abortAfter&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;abortAfter&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4082" info="Function in derived class"/>
+            <location file="catch.hpp" line="3884" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;showInvisibles&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;showInvisibles&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4083" info="Function in derived class"/>
+            <location file="catch.hpp" line="3885" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;nameAndLocation&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;nameAndLocation&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6172" info="Function in derived class"/>
+            <location file="catch.hpp" line="6062" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isComplete&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isComplete&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6175" info="Function in derived class"/>
+            <location file="catch.hpp" line="6065" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isSuccessfullyCompleted&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isSuccessfullyCompleted&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6178" info="Function in derived class"/>
+            <location file="catch.hpp" line="6066" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isOpen&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isOpen&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6181" info="Function in derived class"/>
+            <location file="catch.hpp" line="6067" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;hasChildren&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;hasChildren&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6184" info="Function in derived class"/>
+            <location file="catch.hpp" line="6068" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;addChild&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;addChild&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6188" info="Function in derived class"/>
+            <location file="catch.hpp" line="6077" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;findChild&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;findChild&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6192" info="Function in derived class"/>
+            <location file="catch.hpp" line="6078" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;parent&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;parent&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6198" info="Function in derived class"/>
+            <location file="catch.hpp" line="6070" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;openChild&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;openChild&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6203" info="Function in derived class"/>
+            <location file="catch.hpp" line="6079" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isSectionTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isSectionTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6211" info="Function in derived class"/>
+            <location file="catch.hpp" line="6082" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isIndexTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isIndexTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6212" info="Function in derived class"/>
+            <location file="catch.hpp" line="6083" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;close&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;close&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6221" info="Function in derived class"/>
+            <location file="catch.hpp" line="6073" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;fail&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;fail&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6250" info="Function in derived class"/>
+            <location file="catch.hpp" line="6074" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;markAsNeedingAnotherRun&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;markAsNeedingAnotherRun&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6257" info="Function in derived class"/>
+            <location file="catch.hpp" line="6075" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isSectionTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isSectionTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6286" info="Function in derived class"/>
+            <location file="catch.hpp" line="6211" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isIndexTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isIndexTracker&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6335" info="Function in derived class"/>
+            <location file="catch.hpp" line="6212" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;close&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;close&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="6367" info="Function in derived class"/>
+            <location file="catch.hpp" line="6221" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;create&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;create&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7484" info="Function in derived class"/>
+            <location file="catch.hpp" line="5849" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9487" info="Function in derived class"/>
+            <location file="catch.hpp" line="5813" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9491" info="Function in derived class"/>
+            <location file="catch.hpp" line="5815" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9498" info="Function in derived class"/>
+            <location file="catch.hpp" line="5817" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9505" info="Function in derived class"/>
+            <location file="catch.hpp" line="5818" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9512" info="Function in derived class"/>
+            <location file="catch.hpp" line="5820" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9519" info="Function in derived class"/>
+            <location file="catch.hpp" line="5821" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9526" info="Function in derived class"/>
+            <location file="catch.hpp" line="5823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9534" info="Function in derived class"/>
+            <location file="catch.hpp" line="5826" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9543" info="Function in derived class"/>
+            <location file="catch.hpp" line="5828" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9550" info="Function in derived class"/>
+            <location file="catch.hpp" line="5829" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9557" info="Function in derived class"/>
+            <location file="catch.hpp" line="5830" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9564" info="Function in derived class"/>
+            <location file="catch.hpp" line="5831" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9571" info="Function in derived class"/>
+            <location file="catch.hpp" line="5833" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;tryAsMulti&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;tryAsMulti&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9578" info="Function in derived class"/>
+            <location file="catch.hpp" line="5835" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9651" info="Function in derived class"/>
+            <location file="catch.hpp" line="5813" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9657" info="Function in derived class"/>
+            <location file="catch.hpp" line="5815" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9659" info="Function in derived class"/>
+            <location file="catch.hpp" line="5817" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9662" info="Function in derived class"/>
+            <location file="catch.hpp" line="5818" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9666" info="Function in derived class"/>
+            <location file="catch.hpp" line="5820" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9669" info="Function in derived class"/>
+            <location file="catch.hpp" line="5821" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9673" info="Function in derived class"/>
+            <location file="catch.hpp" line="5828" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9676" info="Function in derived class"/>
+            <location file="catch.hpp" line="5829" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9679" info="Function in derived class"/>
+            <location file="catch.hpp" line="5830" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9682" info="Function in derived class"/>
+            <location file="catch.hpp" line="5831" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9688" info="Function in derived class"/>
+            <location file="catch.hpp" line="5833" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;getPreferences&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9758" info="Function in derived class"/>
+            <location file="catch.hpp" line="5813" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9762" info="Function in derived class"/>
+            <location file="catch.hpp" line="5817" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9763" info="Function in derived class"/>
+            <location file="catch.hpp" line="5818" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9765" info="Function in derived class"/>
+            <location file="catch.hpp" line="5820" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9767" info="Function in derived class"/>
+            <location file="catch.hpp" line="5821" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9792" info="Function in derived class"/>
+            <location file="catch.hpp" line="5823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9794" info="Function in derived class"/>
+            <location file="catch.hpp" line="5826" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9806" info="Function in derived class"/>
+            <location file="catch.hpp" line="5828" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9812" info="Function in derived class"/>
+            <location file="catch.hpp" line="5829" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9823" info="Function in derived class"/>
+            <location file="catch.hpp" line="5830" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9828" info="Function in derived class"/>
+            <location file="catch.hpp" line="5831" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;skipTest&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9836" info="Function in derived class"/>
+            <location file="catch.hpp" line="5833" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9876" info="Function in derived class"/>
+            <location file="catch.hpp" line="5823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="9877" info="Function in derived class"/>
+            <location file="catch.hpp" line="5826" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10237" info="Function in derived class"/>
+            <location file="catch.hpp" line="9657" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10241" info="Function in derived class"/>
+            <location file="catch.hpp" line="9659" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10251" info="Function in derived class"/>
+            <location file="catch.hpp" line="9662" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10257" info="Function in derived class"/>
+            <location file="catch.hpp" line="9666" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10271" info="Function in derived class"/>
+            <location file="catch.hpp" line="9669" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10282" info="Function in derived class"/>
+            <location file="catch.hpp" line="5823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10284" info="Function in derived class"/>
+            <location file="catch.hpp" line="5826" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10360" info="Function in derived class"/>
+            <location file="catch.hpp" line="9673" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10375" info="Function in derived class"/>
+            <location file="catch.hpp" line="9676" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10391" info="Function in derived class"/>
+            <location file="catch.hpp" line="9679" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10401" info="Function in derived class"/>
+            <location file="catch.hpp" line="9682" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10473" info="Function in derived class"/>
+            <location file="catch.hpp" line="5815" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10475" info="Function in derived class"/>
+            <location file="catch.hpp" line="9762" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10480" info="Function in derived class"/>
+            <location file="catch.hpp" line="9763" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10488" info="Function in derived class"/>
+            <location file="catch.hpp" line="9765" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10491" info="Function in derived class"/>
+            <location file="catch.hpp" line="9794" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10497" info="Function in derived class"/>
+            <location file="catch.hpp" line="9812" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10503" info="Function in derived class"/>
+            <location file="catch.hpp" line="9823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEndedCumulative&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEndedCumulative&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10509" info="Function in derived class"/>
+            <location file="catch.hpp" line="9834" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;noMatchingTestCases&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10683" info="Function in derived class"/>
+            <location file="catch.hpp" line="9657" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10687" info="Function in derived class"/>
+            <location file="catch.hpp" line="5823" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;assertionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10690" info="Function in derived class"/>
+            <location file="catch.hpp" line="5826" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionStarting&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10707" info="Function in derived class"/>
+            <location file="catch.hpp" line="9669" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10711" info="Function in derived class"/>
+            <location file="catch.hpp" line="9673" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testCaseEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10730" info="Function in derived class"/>
+            <location file="catch.hpp" line="9676" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testGroupEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10734" info="Function in derived class"/>
+            <location file="catch.hpp" line="9679" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;testRunEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="10743" info="Function in derived class"/>
+            <location file="catch.hpp" line="9682" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;sectionEnded&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="11145" info="Function in derived class"/>
+            <location file="catch.hpp" line="9673" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1882" info="Function in derived class"/>
+            <location file="catch.hpp" line="924" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;isBinaryExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;isBinaryExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1917" info="Function in derived class"/>
+            <location file="catch.hpp" line="921" info="Virtual function in base class"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." verbose="The function &amp;#039;reconstructExpression&amp;#039; overrides a function in a base class but is not marked with a &amp;#039;override&amp;#039; specifier." file0="testa_velha.cpp" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="1921" info="Function in derived class"/>
+            <location file="catch.hpp" line="924" info="Virtual function in base class"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;CATCH_CONFIG_DEFAULT_REPORTER&amp;#039; since the value of &amp;#039;CATCH_CONFIG_DEFAULT_REPORTER&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;CATCH_CONFIG_DEFAULT_REPORTER&amp;#039; since the value of &amp;#039;CATCH_CONFIG_DEFAULT_REPORTER&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="12/09/2021">
+            <location file="catch.hpp" line="7046"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;TBC_TEXT_FORMAT_H_INCLUDED;TWOBLUECUBES_CLARA_H_INCLUDED&amp;#039; since the value of &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;TBC_TEXT_FORMAT_H_INCLUDED;TWOBLUECUBES_CLARA_H_INCLUDED&amp;#039; since the value of &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4152"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;TBC_TEXT_FORMAT_H_INCLUDED;TBC_TEXT_FORMAT_CONSOLE_WIDTH;TWOBLUECUBES_CLARA_H_INCLUDED&amp;#039; since the value of &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;TBC_TEXT_FORMAT_H_INCLUDED;TBC_TEXT_FORMAT_CONSOLE_WIDTH;TWOBLUECUBES_CLARA_H_INCLUDED&amp;#039; since the value of &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4152"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;TBC_TEXT_FORMAT_H_INCLUDED;TWOBLUECUBES_CLARA_H_INCLUDED&amp;#039; since the value of &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE;TBC_TEXT_FORMAT_H_INCLUDED;TWOBLUECUBES_CLARA_H_INCLUDED&amp;#039; since the value of &amp;#039;STITCH_TBC_TEXT_FORMAT_OUTER_NAMESPACE&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="12/09/2021">
+            <location file="catch.hpp" line="4152"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;LeakDetector&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;LeakDetector&amp;#039;" cwe="758" sinceDate="12/09/2021">
+            <location file="catch.hpp" line="3534" info=""/>
+            <location file="catch.hpp" line="3520" info=""/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;____C_A_T_C_H____T_E_S_T____3&amp;#039; is never used." verbose="The function &amp;#039;____C_A_T_C_H____T_E_S_T____3&amp;#039; is never used." cwe="561" sinceDate="12/09/2021">
+            <location file="testa_velha.cpp" line="13"/>
+        </error>
+    </errors>
+</results>
