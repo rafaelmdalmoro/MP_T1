@@ -95,7 +95,12 @@ TEST_CASE("Testa velha", "[single-file]") {
 	                          { 2, 1, 1 },
 						      { 2, 1, 2 }
     };
-	//Testes
+	// indefinidos
+	int indefinido1[3][3]= {  { 0, 0, 0 },
+	                          { 0, 0, 1 },
+						      { 2, 0, 2 }
+    };
+	// Testes
 	// X vence
     REQUIRE(VerificaVelha(vitoriaX_1) == 1);
     REQUIRE(VerificaVelha(vitoriaX_2) == 1);
@@ -119,6 +124,7 @@ TEST_CASE("Testa velha", "[single-file]") {
 	REQUIRE(VerificaVelha(tudoO) == -2);
 	REQUIRE(VerificaVelha(impossivel1) == -2);
 	REQUIRE(VerificaVelha(impossivel2) == -2);
-
-
+	//indefinidos
+	REQUIRE(VerificaVelha(indefinido1) == -1);
 }
+
