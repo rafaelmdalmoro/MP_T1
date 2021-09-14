@@ -86,8 +86,15 @@ Obs: implementa matriz de jogo impossivel3
 
 Teste 15 -  Jogo impossível
 Testa um jogo em que os 2 jogadores sao vencedores
-Teste passou
+Teste passou!
 Porque: As regras de jogo impossivel estao completas. é impossivel ter 2 vencedores
 Obs: ajusta condicionais jogoValido
+
+Teste 16 - Empate
+Testa um jogo completo, porem empatado
+Teste falhou!
+Porque: As regras de jogo empatado nao estao completas. 
+Obs: implementa matriz empate1
+
 
 

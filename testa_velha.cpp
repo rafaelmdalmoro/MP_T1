@@ -78,6 +78,11 @@ TEST_CASE("Testa velha", "[single-file]") {
 	                          { 1, 0, 1 },
 						      { 2, 2, 2 }
     };
+	//Empate
+	int empate1[3][3]= {      { 1, 2, 1 },
+	                          { 1, 2, 1 },
+						      { 2, 1, 2 }
+    };
 	//Invalidos
 	int tudoX[3][3]= {        { 1, 1, 1 },
 	                          { 1, 1, 1 },
@@ -131,6 +136,8 @@ TEST_CASE("Testa velha", "[single-file]") {
 	REQUIRE(VerificaVelha(impossivel3) == -2);
 	//indefinidos
 	REQUIRE(VerificaVelha(indefinido1) == -1);
+	//empate
+	REQUIRE(VerificaVelha(empate1) == 0);
 	
 }
 
