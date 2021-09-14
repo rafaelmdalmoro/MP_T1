@@ -78,4 +78,16 @@ Teste Passou!
 Porque: As regras de jogo indefinido (simples) estao completas. É possivel ganhar antes de preencher todas os quadrados
 Obs: ajuste de condicionais no verifica_velha
 
+Teste 14 -  Jogo impossível
+Testa um jogo em que os 2 jogadores sao vencedores
+Teste falhou!
+Porque: As regras de jogo impossivel nao estao completas. é impossivel ter 2 vencedores
+Obs: implementa matriz de jogo impossivel3
+
+Teste 15 -  Jogo impossível
+Testa um jogo em que os 2 jogadores sao vencedores
+Teste passou
+Porque: As regras de jogo impossivel estao completas. é impossivel ter 2 vencedores
+Obs: ajusta condicionais jogoValido
+
 

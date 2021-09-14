@@ -95,6 +95,10 @@ TEST_CASE("Testa velha", "[single-file]") {
 	                          { 2, 1, 1 },
 						      { 2, 1, 2 }
     };
+	int impossivel3[3][3]= {  { 1, 1, 1 },
+	                          { 0, 0, 0 },
+						      { 2, 2, 2 }
+    };
 	// indefinidos
 	int indefinido1[3][3]= {  { 0, 0, 0 },
 	                          { 0, 0, 1 },
@@ -124,7 +128,9 @@ TEST_CASE("Testa velha", "[single-file]") {
 	REQUIRE(VerificaVelha(tudoO) == -2);
 	REQUIRE(VerificaVelha(impossivel1) == -2);
 	REQUIRE(VerificaVelha(impossivel2) == -2);
+	REQUIRE(VerificaVelha(impossivel3) == -2);
 	//indefinidos
 	REQUIRE(VerificaVelha(indefinido1) == -1);
+	
 }
 

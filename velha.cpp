@@ -94,7 +94,9 @@ int jogoValido(int velha[3][3]){
         }
     }
     if((qntdX == qntdO) || (qntdX == (qntdO + 1)) || (qntdO == (qntdX + 1))){
-        return TRUE;
+        if((vencedorX(velha) && vencedorO(velha)) == FALSE){
+            return TRUE;
+        }
     } 
     return FALSE;
 }
