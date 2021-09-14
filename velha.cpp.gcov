@@ -1,0 +1,248 @@
+        -:    0:Source:velha.cpp
+        -:    0:Graph:velha.gcno
+        -:    0:Data:velha.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/**
+        -:    2: * Copyright 2021 Rafael Mascarenhas Dal Moro - License at Repository's markdown
+        -:    3: * Trabalho 1 - Metodos de Programacao
+        -:    4: * Autor: Rafael Mascarenhas Dal Moro
+        -:    5: * Matricula: 17/0021041
+        -:    6: * \file  velha.cpp
+        -:    7: */
+        -:    8:
+        -:    9:
+        -:   10:#include "velha.hpp"
+        -:   11:
+        -:   12:/** 
+        -:   13: * @brief verifica situacao do jogo da velha  
+        -:   14: * @author Rafael Mascarenhas Dal Moro 
+        -:   15: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:   16: *  A função VerificaVelha faz todos os testes para garantir se o jogo é válido,
+        -:   17: *  se está completo, se tem um vencedor, se foi empate ou se está indefinido. 
+        -:   18: *  Todas estas respostas são devidademente retornadas no formato de um inteiro
+        -:   19: */ 
+       23:   20:int VerificaVelha(int velha[3][3]) {
+       23:   21:    if (jogoValido(velha)) {
+       18:   22:        if (jogoCompleto(velha)) {
+        1:   23:            if (vencedorX(velha)) {
+    #####:   24:                return 1;   /*! <  vitória do X */
+        1:   25:            } else if (vencedorO(velha)) {
+    #####:   26:                return 2;   /*! <  vitória do O */
+        -:   27:            }
+        1:   28:            return 0;
+        -:   29:        } else {
+       17:   30:            if (vencedorX(velha)) {
+        8:   31:                return 1;    /*! <  vitória do X */
+        9:   32:            } else if (vencedorO(velha)) {
+        8:   33:                return 2;   /*! <  vitória do O */
+        -:   34:            }
+        1:   35:            return -1;   /*! <   resultado indefinido */
+        -:   36:        }
+        -:   37:    }
+        5:   38:    return -2; /*! <   resultado inválido */
+        -:   39:}
+        -:   40:/** 
+        -:   41: * @brief verifica se X venceu o jogo 
+        -:   42: * @author Rafael Mascarenhas Dal Moro 
+        -:   43: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:   44: *  A função vencedorX faz todos os testes para garantir se o jogador X foi o vencedor.
+        -:   45: *  Em caso afirmativo, ela retorna verdadeiro, caso contrário, falso
+        -:   46: */ 
+       37:   47:int vencedorX(int velha[3][3]) {
+       37:   48:    int x = 1;
+       37:   49:    if (linha1Venceu(x, velha)) {
+        3:   50:        return TRUE;
+       34:   51:    } else if (linha2Venceu(x, velha)) {
+        2:   52:        return TRUE;
+       32:   53:    } else if (linha3Venceu(x, velha)) {
+        2:   54:        return TRUE;
+       30:   55:    } else if (coluna1Venceu(x, velha)) {
+        2:   56:        return TRUE;
+       28:   57:    } else if (coluna2Venceu(x, velha)) {
+        2:   58:        return TRUE;
+       26:   59:    } else if (coluna3Venceu(x, velha)) {
+        2:   60:        return TRUE;
+       24:   61:    } else if (diagonal1Venceu(x, velha)) {
+        2:   62:        return TRUE;
+       22:   63:    } else if (diagonal2Venceu(x, velha)) {
+        2:   64:        return TRUE;
+        -:   65:    } else {
+       20:   66:        return FALSE;
+        -:   67:    }
+        -:   68:}
+        -:   69:/** 
+        -:   70: * @brief verifica se O venceu o jogo 
+        -:   71: * @author Rafael Mascarenhas Dal Moro 
+        -:   72: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:   73: *  A função vencedorX faz todos os testes para garantir se o jogador O foi o vencedor.
+        -:   74: *  Em caso afirmativo, ela retorna verdadeiro, caso contrário, falso
+        -:   75: */ 
+       19:   76:int vencedorO(int velha[3][3]) {
+       19:   77:    int O = 2;
+       19:   78:    if (linha1Venceu(O, velha)) {
+        1:   79:        return TRUE;
+       18:   80:    } else if (linha2Venceu(O, velha)) {
+        1:   81:        return TRUE;
+       17:   82:    } else if (linha3Venceu(O, velha)) {
+        2:   83:        return TRUE;
+       15:   84:    } else if (coluna1Venceu(O, velha)) {
+        1:   85:        return TRUE;
+       14:   86:    } else if (coluna2Venceu(O, velha)) {
+        1:   87:        return TRUE;
+       13:   88:    } else if (coluna3Venceu(O, velha)) {
+        1:   89:        return TRUE;
+       12:   90:    } else if (diagonal1Venceu(O, velha)) {
+        1:   91:        return TRUE;
+       11:   92:    } else if (diagonal2Venceu(O, velha)) {
+        1:   93:        return TRUE;
+        -:   94:    } else {
+       10:   95:        return FALSE;
+        -:   96:    }
+        -:   97:}
+        -:   98:/** 
+        -:   99: * @brief verifica se o jogo da velha é válido
+        -:  100: * @author Rafael Mascarenhas Dal Moro 
+        -:  101: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  102: *  A função jogoValido testa se o jogo possui mais jogadas do que deveria
+        -:  103: *  de um dos jogadores ou se existe mais de um vencedor.
+        -:  104: *  Em caso negativo, ela retorna verdadeiro, caso contrário, falso
+        -:  105: */ 
+       23:  106:int jogoValido(int velha[3][3]) {
+       23:  107:    int qntdX = 0;
+       23:  108:    int qntdO = 0;
+       92:  109:    for (int i = 0; i <  3; i++) {
+      276:  110:        for (int j=0; j <  3; j++) {
+      207:  111:            if (velha[i][j] == 1) qntdX++;
+      207:  112:            if (velha[i][j] == 2) qntdO++;
+        -:  113:        }
+        -:  114:    }
+       23:  115:    if ((qntdX == qntdO) || (qntdX == (qntdO + 1)) || (qntdO == (qntdX + 1))) {
+       19:  116:        if ((vencedorX(velha) && vencedorO(velha)) == FALSE) {
+       18:  117:            return TRUE;
+        -:  118:        }
+        -:  119:    }
+        5:  120:    return FALSE;
+        -:  121:}
+        -:  122:
+        -:  123:/** 
+        -:  124: * @brief verifica se o jogo da velha está completamente jogado
+        -:  125: * @author Rafael Mascarenhas Dal Moro 
+        -:  126: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  127: *  A função jogoCompleto testa se todas as jogadas possíveis já foram efetuadas.
+        -:  128: * Para tal, ela verifica a quantidade de zeros na matriz
+        -:  129: *  Em caso afirmativo, ela retorna verdadeiro, caso contrário, falso
+        -:  130: */ 
+       18:  131:int jogoCompleto(int velha[3][3]) {
+       24:  132:    for (int i = 0; i <  3; i++) {
+       56:  133:        for (int j=0; j <  3; j++) {
+       50:  134:            if (velha[i][j] == 0) return FALSE;
+        -:  135:        }
+        -:  136:    }
+        1:  137:    return TRUE;
+        -:  138:}
+        -:  139:
+        -:  140:/** 
+        -:  141: * @brief verifica se houve vitoria na 1 linha da matriz
+        -:  142: * @author Rafael Mascarenhas Dal Moro 
+        -:  143: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  144: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  145: *  A função linha1Venceu testa se o jogador do simbolo especificado venceu na
+        -:  146: *  primeira linha da matriz
+        -:  147: */ 
+       56:  148:int linha1Venceu(int simbolo, int velha[3][3]) {
+       77:  149:    return (velha[0][0] == simbolo &&
+       60:  150:            velha[0][1] == simbolo &&
+       60:  151:            velha[0][2] == simbolo);
+        -:  152:}
+        -:  153:/** 
+        -:  154: * @brief verifica se houve vitoria na 2 linha da matriz
+        -:  155: * @author Rafael Mascarenhas Dal Moro 
+        -:  156: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  157: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  158: *  A função linha2Venceu testa se o jogador do simbolo especificado venceu na
+        -:  159: *  segunda linha da matriz
+        -:  160: */ 
+       52:  161:int linha2Venceu(int simbolo, int velha[3][3]) {
+       78:  162:    return (velha[1][0] == simbolo &&
+       57:  163:            velha[1][1] == simbolo &&
+       57:  164:            velha[1][2] == simbolo);
+        -:  165:}
+        -:  166:/** 
+        -:  167: * @brief verifica se houve vitoria na 3 linha da matriz
+        -:  168: * @author Rafael Mascarenhas Dal Moro 
+        -:  169: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  170: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  171: *  A função linha3Venceu testa se o jogador do simbolo especificado venceu na
+        -:  172: *  terceira linha da matriz
+        -:  173: */ 
+       49:  174:int linha3Venceu(int simbolo, int velha[3][3]) {
+       64:  175:    return (velha[2][0] == simbolo &&
+       56:  176:            velha[2][1] == simbolo &&
+       56:  177:            velha[2][2] == simbolo);
+        -:  178:}
+        -:  179:/** 
+        -:  180: * @brief verifica se houve vitoria na 1 coluna da matriz
+        -:  181: * @author Rafael Mascarenhas Dal Moro 
+        -:  182: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  183: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  184: *  A função coluna1Venceu testa se o jogador do simbolo especificado venceu na
+        -:  185: *  primeira coluna da matriz
+        -:  186: */ 
+       45:  187:int coluna1Venceu(int simbolo, int velha[3][3]) {
+       62:  188:    return (velha[0][0] == simbolo &&
+       59:  189:            velha[1][0] == simbolo &&
+       59:  190:            velha[2][0] == simbolo);
+        -:  191:}
+        -:  192:/** 
+        -:  193: * @brief verifica se houve vitoria na 2 coluna da matriz
+        -:  194: * @author Rafael Mascarenhas Dal Moro 
+        -:  195: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  196: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  197: *  A função coluna2Venceu testa se o jogador do simbolo especificado venceu na
+        -:  198: *  segunda coluna da matriz
+        -:  199: */ 
+       42:  200:int coluna2Venceu(int simbolo, int velha[3][3]) {
+       52:  201:    return (velha[0][1] == simbolo &&
+       46:  202:            velha[1][1] == simbolo &&
+       46:  203:            velha[2][1] == simbolo);
+        -:  204:}
+        -:  205:/** 
+        -:  206: * @brief verifica se houve vitoria na 3 coluna da matriz
+        -:  207: * @author Rafael Mascarenhas Dal Moro 
+        -:  208: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  209: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  210: *  A função coluna3Venceu testa se o jogador do simbolo especificado venceu na
+        -:  211: *  terceira coluna da matriz
+        -:  212: */ 
+       39:  213:int coluna3Venceu(int simbolo, int velha[3][3]) {
+       50:  214:    return (velha[0][2] == simbolo &&
+       44:  215:            velha[1][2] == simbolo &&
+       44:  216:            velha[2][2] == simbolo);
+        -:  217:}
+        -:  218:/** 
+        -:  219: * @brief verifica se houve vitoria na 1 diagonal da matriz
+        -:  220: * @author Rafael Mascarenhas Dal Moro 
+        -:  221: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  222: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  223: *  A função diagonal1Venceu testa se o jogador do simbolo especificado venceu na
+        -:  224: *  primeira diagonal da matriz
+        -:  225: */ 
+       36:  226:int diagonal1Venceu(int simbolo, int velha[3][3]) {
+       50:  227:    return (velha[0][0] == simbolo &&
+       39:  228:            velha[1][1] == simbolo &&
+       39:  229:            velha[2][2] == simbolo);
+        -:  230:}
+        -:  231:/** 
+        -:  232: * @brief verifica se houve vitoria na 2 diagonal da matriz
+        -:  233: * @author Rafael Mascarenhas Dal Moro 
+        -:  234: * @param  simbolo passa o icone do possivel jogador vencedor
+        -:  235: * @param  velha passa uma cópia da matriz do jogo da velha para a função
+        -:  236: *  A função diagonal2Venceu testa se o jogador do simbolo especificado venceu na
+        -:  237: *  segunda diagonal da matriz
+        -:  238: */ 
+       33:  239:int diagonal2Venceu(int simbolo, int velha[3][3]) {
+       41:  240:    return (velha[0][2] == simbolo &&
+       37:  241:            velha[1][1] == simbolo &&
+       37:  242:            velha[2][0] == simbolo);
+        -:  243:}

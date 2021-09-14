@@ -5,13 +5,269 @@
 \begin{DoxyCompactItemize}
 \item 
 int \hyperlink{velha_8cpp_a9a79eba727abd2979d43ec648ed428e9}{Verifica\+Velha} (int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
-\begin{DoxyCompactList}\small\item\em verifica situacao do jogo da velha \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em verifica situacao do jogo da velha \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a74c817bbed8d6c0f1832e312de78080b}{vencedorX} (int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se X venceu o jogo \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a59ad0b1011d27f60bca246edec127fe3}{vencedorO} (int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se O venceu o jogo \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a7f4de486f74dfe1c20c2171b4159b4f9}{jogo\+Valido} (int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se o jogo da velha é válido \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a24dda0a98b6b4c17eb2a8b3de3753313}{jogo\+Completo} (int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se o jogo da velha está completamente jogado \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_ad00ad479bbab0e121a9264b84c135f81}{linha1\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 1 linha da matriz \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a6cfac0edfa75ab3b57d55f375d838028}{linha2\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 2 linha da matriz \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a8a330d12e3379eae0c2df42cee332101}{linha3\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 3 linha da matriz \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_abd9e47c99f1fd2bfce8ec56faf3f5420}{coluna1\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 1 coluna da matriz \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a2d7c94aad56e3f486719c033ce15a7f0}{coluna2\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 2 coluna da matriz \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a7ab51f4e40e144ca84dd902c5ba37e56}{coluna3\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 3 coluna da matriz \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a9252fd50d56e52a197065db95681f009}{diagonal1\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 1 diagonal da matriz \end{DoxyCompactList}\item 
+int \hyperlink{velha_8cpp_a0fc45aa04017433c28977cd4c5421570}{diagonal2\+Venceu} (int simbolo, int velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em verifica se houve vitoria na 2 diagonal da matriz \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
 Copyright 2021 Rafael Mascarenhas Dal Moro -\/ License at Repository\textquotesingle{}s markdown Trabalho 1 -\/ Metodos de Programacao Autor\+: Rafael Mascarenhas Dal Moro Matricula\+: 17/0021041 
 
 \subsection{Function Documentation}
+\mbox{\Hypertarget{velha_8cpp_abd9e47c99f1fd2bfce8ec56faf3f5420}\label{velha_8cpp_abd9e47c99f1fd2bfce8ec56faf3f5420}} 
+\index{velha.\+cpp@{velha.\+cpp}!coluna1\+Venceu@{coluna1\+Venceu}}
+\index{coluna1\+Venceu@{coluna1\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{coluna1\+Venceu()}{coluna1Venceu()}}
+{\footnotesize\ttfamily int coluna1\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 1 coluna da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função coluna1\+Venceu testa se o jogador do simbolo especificado venceu na primeira coluna da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a2d7c94aad56e3f486719c033ce15a7f0}\label{velha_8cpp_a2d7c94aad56e3f486719c033ce15a7f0}} 
+\index{velha.\+cpp@{velha.\+cpp}!coluna2\+Venceu@{coluna2\+Venceu}}
+\index{coluna2\+Venceu@{coluna2\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{coluna2\+Venceu()}{coluna2Venceu()}}
+{\footnotesize\ttfamily int coluna2\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 2 coluna da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função coluna2\+Venceu testa se o jogador do simbolo especificado venceu na segunda coluna da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a7ab51f4e40e144ca84dd902c5ba37e56}\label{velha_8cpp_a7ab51f4e40e144ca84dd902c5ba37e56}} 
+\index{velha.\+cpp@{velha.\+cpp}!coluna3\+Venceu@{coluna3\+Venceu}}
+\index{coluna3\+Venceu@{coluna3\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{coluna3\+Venceu()}{coluna3Venceu()}}
+{\footnotesize\ttfamily int coluna3\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 3 coluna da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função coluna3\+Venceu testa se o jogador do simbolo especificado venceu na terceira coluna da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a9252fd50d56e52a197065db95681f009}\label{velha_8cpp_a9252fd50d56e52a197065db95681f009}} 
+\index{velha.\+cpp@{velha.\+cpp}!diagonal1\+Venceu@{diagonal1\+Venceu}}
+\index{diagonal1\+Venceu@{diagonal1\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{diagonal1\+Venceu()}{diagonal1Venceu()}}
+{\footnotesize\ttfamily int diagonal1\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 1 diagonal da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função diagonal1\+Venceu testa se o jogador do simbolo especificado venceu na primeira diagonal da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a0fc45aa04017433c28977cd4c5421570}\label{velha_8cpp_a0fc45aa04017433c28977cd4c5421570}} 
+\index{velha.\+cpp@{velha.\+cpp}!diagonal2\+Venceu@{diagonal2\+Venceu}}
+\index{diagonal2\+Venceu@{diagonal2\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{diagonal2\+Venceu()}{diagonal2Venceu()}}
+{\footnotesize\ttfamily int diagonal2\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 2 diagonal da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função diagonal2\+Venceu testa se o jogador do simbolo especificado venceu na segunda diagonal da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a24dda0a98b6b4c17eb2a8b3de3753313}\label{velha_8cpp_a24dda0a98b6b4c17eb2a8b3de3753313}} 
+\index{velha.\+cpp@{velha.\+cpp}!jogo\+Completo@{jogo\+Completo}}
+\index{jogo\+Completo@{jogo\+Completo}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{jogo\+Completo()}{jogoCompleto()}}
+{\footnotesize\ttfamily int jogo\+Completo (\begin{DoxyParamCaption}\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se o jogo da velha está completamente jogado 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função jogo\+Completo testa se todas as jogadas possíveis já foram efetuadas. Para tal, ela verifica a quantidade de zeros na matriz Em caso afirmativo, ela retorna verdadeiro, caso contrário, falso \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a7f4de486f74dfe1c20c2171b4159b4f9}\label{velha_8cpp_a7f4de486f74dfe1c20c2171b4159b4f9}} 
+\index{velha.\+cpp@{velha.\+cpp}!jogo\+Valido@{jogo\+Valido}}
+\index{jogo\+Valido@{jogo\+Valido}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{jogo\+Valido()}{jogoValido()}}
+{\footnotesize\ttfamily int jogo\+Valido (\begin{DoxyParamCaption}\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se o jogo da velha é válido 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função jogo\+Valido testa se o jogo possui mais jogadas do que deveria de um dos jogadores ou se existe mais de um vencedor. Em caso negativo, ela retorna verdadeiro, caso contrário, falso \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_ad00ad479bbab0e121a9264b84c135f81}\label{velha_8cpp_ad00ad479bbab0e121a9264b84c135f81}} 
+\index{velha.\+cpp@{velha.\+cpp}!linha1\+Venceu@{linha1\+Venceu}}
+\index{linha1\+Venceu@{linha1\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{linha1\+Venceu()}{linha1Venceu()}}
+{\footnotesize\ttfamily int linha1\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 1 linha da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função linha1\+Venceu testa se o jogador do simbolo especificado venceu na primeira linha da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a6cfac0edfa75ab3b57d55f375d838028}\label{velha_8cpp_a6cfac0edfa75ab3b57d55f375d838028}} 
+\index{velha.\+cpp@{velha.\+cpp}!linha2\+Venceu@{linha2\+Venceu}}
+\index{linha2\+Venceu@{linha2\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{linha2\+Venceu()}{linha2Venceu()}}
+{\footnotesize\ttfamily int linha2\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 2 linha da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função linha2\+Venceu testa se o jogador do simbolo especificado venceu na segunda linha da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a8a330d12e3379eae0c2df42cee332101}\label{velha_8cpp_a8a330d12e3379eae0c2df42cee332101}} 
+\index{velha.\+cpp@{velha.\+cpp}!linha3\+Venceu@{linha3\+Venceu}}
+\index{linha3\+Venceu@{linha3\+Venceu}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{linha3\+Venceu()}{linha3Venceu()}}
+{\footnotesize\ttfamily int linha3\+Venceu (\begin{DoxyParamCaption}\item[{int}]{simbolo,  }\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se houve vitoria na 3 linha da matriz 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em simbolo} & passa o icone do possivel jogador vencedor \\
+\hline
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função linha3\+Venceu testa se o jogador do simbolo especificado venceu na terceira linha da matriz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a59ad0b1011d27f60bca246edec127fe3}\label{velha_8cpp_a59ad0b1011d27f60bca246edec127fe3}} 
+\index{velha.\+cpp@{velha.\+cpp}!vencedorO@{vencedorO}}
+\index{vencedorO@{vencedorO}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{vencedor\+O()}{vencedorO()}}
+{\footnotesize\ttfamily int vencedorO (\begin{DoxyParamCaption}\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se O venceu o jogo 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função vencedorX faz todos os testes para garantir se o jogador O foi o vencedor. Em caso afirmativo, ela retorna verdadeiro, caso contrário, falso \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{velha_8cpp_a74c817bbed8d6c0f1832e312de78080b}\label{velha_8cpp_a74c817bbed8d6c0f1832e312de78080b}} 
+\index{velha.\+cpp@{velha.\+cpp}!vencedorX@{vencedorX}}
+\index{vencedorX@{vencedorX}!velha.\+cpp@{velha.\+cpp}}
+\subsubsection{\texorpdfstring{vencedor\+X()}{vencedorX()}}
+{\footnotesize\ttfamily int vencedorX (\begin{DoxyParamCaption}\item[{int}]{velha\mbox{[}3\mbox{]}\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+verifica se X venceu o jogo 
+
+\begin{DoxyAuthor}{Author}
+Rafael Mascarenhas Dal Moro 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função vencedorX faz todos os testes para garantir se o jogador X foi o vencedor. Em caso afirmativo, ela retorna verdadeiro, caso contrário, falso \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{velha_8cpp_a9a79eba727abd2979d43ec648ed428e9}\label{velha_8cpp_a9a79eba727abd2979d43ec648ed428e9}} 
 \index{velha.\+cpp@{velha.\+cpp}!Verifica\+Velha@{Verifica\+Velha}}
 \index{Verifica\+Velha@{Verifica\+Velha}!velha.\+cpp@{velha.\+cpp}}
@@ -23,11 +279,21 @@ Copyright 2021 Rafael Mascarenhas Dal Moro -\/ License at Repository\textquotesi
 verifica situacao do jogo da velha 
 
 \begin{DoxyAuthor}{Author}
-Programador 
+Rafael Mascarenhas Dal Moro 
 \end{DoxyAuthor}
 
 \begin{DoxyParams}{Parameters}
-{\em velha} & descreve o parametro Descrever o que a funcao faz \\
+{\em velha} & passa uma cópia da matriz do jogo da velha para a função A função Verifica\+Velha faz todos os testes para garantir se o jogo é válido, se está completo, se tem um vencedor, se foi empate ou se está indefinido. Todas estas respostas são devidademente retornadas no formato de um inteiro \\
 \hline
 \end{DoxyParams}
-$<$ retorna zero para teste 
+$<$ vitória do X
+
+$<$ vitória do O
+
+$<$ vitória do X
+
+$<$ vitória do O
+
+$<$ resultado indefinido
+
+$<$ resultado inválido 
