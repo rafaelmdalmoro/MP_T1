@@ -83,6 +83,18 @@ TEST_CASE("Testa velha", "[single-file]") {
 	                          { 1, 1, 1 },
 						      { 1, 1, 1 }
     };
+	int tudoO[3][3]= {        { 2, 2, 2 },
+	                          { 2, 2, 2 },
+						      { 2, 2, 2 }
+    };
+	int impossivel1[3][3]= {  { 2, 1, 2 },
+	                          { 2, 1, 2 },
+						      { 2, 1, 2 }
+    };
+	int impossivel2[3][3]= {  { 1, 1, 1 },
+	                          { 2, 1, 1 },
+						      { 2, 1, 2 }
+    };
 	//Testes
 	// X vence
     REQUIRE(VerificaVelha(vitoriaX_1) == 1);
@@ -104,5 +116,9 @@ TEST_CASE("Testa velha", "[single-file]") {
     REQUIRE(VerificaVelha(vitoriaO_8) == 2);
 	// Jogos invalidos
 	REQUIRE(VerificaVelha(tudoX) == -2);
+	REQUIRE(VerificaVelha(tudoO) == -2);
+	REQUIRE(VerificaVelha(impossivel1) == -2);
+	REQUIRE(VerificaVelha(impossivel2) == -2);
+
 
 }

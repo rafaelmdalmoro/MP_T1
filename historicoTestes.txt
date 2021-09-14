@@ -42,5 +42,23 @@ testa todos os casos em que o O vence, retornando 2, e todos os casos em que X v
 Teste Passou!
 Obs: Todos os testes de Xvenceu "descomentados"
 
+Teste 8 - Somente X
+Jogo impossivel
+Teste Falhou!
+Porque: As regras de jogo valida nao estao completas
+Obs: implementa matriz TudoX
+
+Teste 9 - Somente X
+Jogo impossivel
+Teste Passou!
+Porque: As regras de jogo valido estao completas
+Obs: implementa jogoValido
+
+Teste 10 - Varios jogos impossiveis
+Jogo impossivel, como só X ou só O ou 6 'x' para 3 'O'
+Teste Passou!
+Porque: As regras de jogo valido estao completas
+Obs: implementa matrizes de jogos impossiveis
+
 
 
