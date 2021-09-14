@@ -60,5 +60,22 @@ Teste Passou!
 Porque: As regras de jogo valido estao completas
 Obs: implementa matrizes de jogos impossiveis
 
+Teste 11 - Jogo indefinido
+Testa se jogo indefinido (sem vencedor) resulta em -1
+Teste Falhou
+Porque: As regras de jogo indefinido nao estao completas
+Obs: implementa matriz de jogo indefinido1
+
+Teste 12 - Jogo completo?
+Testa se jogo está completamente preenchido, senão resulta em -1
+Teste falhou!
+Porque: As regras de jogo indefinido (simples) nao estao completas. é possivel ganhar antes de preencher todas os quadrados
+Obs: implementa matriz de jogo indefinido1
+
+Teste 13 - Jogo incompleto ganho
+Testa se jogo está completamente preenchido, senão testa se alguem ganhou, caso contrario resulta em -1
+Teste Passou!
+Porque: As regras de jogo indefinido (simples) estao completas. É possivel ganhar antes de preencher todas os quadrados
+Obs: ajuste de condicionais no verifica_velha
 
 
