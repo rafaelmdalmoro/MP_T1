@@ -96,5 +96,11 @@ Teste falhou!
 Porque: As regras de jogo empatado nao estao completas. 
 Obs: implementa matriz empate1
 
+Teste 17 - Empate
+Testa um jogo completo, porem empatado
+Teste passou
+Porque: As regras de jogo empatado estao completas. 
+Obs: ajusta condicionais do VerificaVelha
+
 
 

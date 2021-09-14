@@ -26,6 +26,7 @@ int VerificaVelha(int velha[3][3]) {
             }else if(vencedorO(velha)){
                 return 2;
             }
+            return 0;
         }else{
             if(vencedorX(velha)){
                 return 1;
