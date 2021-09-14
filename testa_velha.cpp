@@ -81,7 +81,7 @@ TEST_CASE("Testa velha", "[single-file]") {
 	//Invalidos
 	int tudoX[3][3]= {        { 1, 1, 1 },
 	                          { 1, 1, 1 },
-						      { 1, 1, 2 }
+						      { 1, 1, 1 }
     };
 	//Testes
 	// X vence

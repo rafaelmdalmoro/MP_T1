@@ -19,12 +19,14 @@
 
 
 int VerificaVelha(int velha[3][3]) {
-    if(vencedorX(velha)){
-        return 1;
-    } else if(vencedorO(velha)){
-        return 2;
+    if(jogoValido(velha)){
+        if(vencedorX(velha)){
+            return 1;
+        } else if(vencedorO(velha)){
+            return 2;
+        }
     }
-    return 0; /*!< retorna zero para teste */
+    return -2; /*!< retorna zero para teste */
 }
 
 int vencedorX(int velha[3][3]){
@@ -71,6 +73,20 @@ int vencedorO(int velha[3][3]){
     }else {
         return FALSE;
     }
+}
+int jogoValido(int velha[3][3]){
+    int qntdX = 0;
+    int qntdO = 0;
+    for(int i = 0; i<3; i++){
+        for(int j=0; j<3; j++){
+            if(velha[i][j] == 1) qntdX++;
+            if(velha[i][j] == 2) qntdO++;
+        }
+    }
+    if((qntdX == qntdO) || (qntdX == (qntdO + 1)) || (qntdO == (qntdX + 1))){
+        return TRUE;
+    } 
+    return FALSE;
 }
 
 int linha1Venceu(int simbolo, int velha[3][3]){

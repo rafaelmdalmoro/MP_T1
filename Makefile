@@ -27,5 +27,6 @@ cleangcov:
 
 clean:
 	rm -rf *.o *.exe
-	
-	
+
+gdb: velha.o testa_velha.cpp
+	g++ -std=c++11 -Wall -ftest-coverage -fprofile-arcs -g velha.o testa_velha.cpp -o testa_velha 
